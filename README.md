@@ -22,8 +22,11 @@ I am passionate about programming and software engineering.
 3. Longest substring without repeating characters<br>
 [[Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)] [[My Answer](src/leetcode/LongestNonRepeatSubstring.java)] 
 [[Submission](https://leetcode.com/submissions/detail/136972086/)]
-3. Medians of two sorted arrays<br>
+4. Medians of two sorted arrays<br>
 [[Problem](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)] [[My Answer](src/leetcode/TwoArrayMedian.java)] 
+[[Submission](https://leetcode.com/submissions/detail/136980621/)]
+5. Longest palindrome substring<br>
+[[Problem](https://leetcode.com/problems/longest-palindromic-substring/description/)] [[My Answer](src/leetcode/LongestPalindrome.java)] 
 [[Submission](https://leetcode.com/submissions/detail/136980621/)]
 
 ## Licence
