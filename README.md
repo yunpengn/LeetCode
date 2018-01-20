@@ -12,7 +12,7 @@ This repository contains my solutions to some selected programming problems on [
 [[Submission](https://leetcode.com/submissions/detail/136911509/)]
 3. Longest substring without repeating characters<br>
 [[Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)] [[My Answer](src/leetcode/LongestNonRepeatSubstring.java)] 
-[[Submission](https://leetcode.com/submissions/detail/136911509/)]
+[[Submission](https://leetcode.com/submissions/detail/136972086/)]
 
 ## Licence
 [GNU General Public Licence 3.0](LICENSE)
