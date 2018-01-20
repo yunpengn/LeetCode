@@ -24,7 +24,7 @@ I am passionate about programming and software engineering.
 [[Submission](https://leetcode.com/submissions/detail/136972086/)]
 3. Medians of two sorted arrays<br>
 [[Problem](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)] [[My Answer](src/leetcode/TwoArrayMedian.java)] 
-[[Submission](https://leetcode.com/submissions/detail/136972086/)]
+[[Submission](https://leetcode.com/submissions/detail/136980621/)]
 
 ## Licence
 [GNU General Public Licence 3.0](LICENSE)

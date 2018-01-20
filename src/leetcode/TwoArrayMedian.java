@@ -1,37 +1,56 @@
 package leetcode;
 
 public class TwoArrayMedian {
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        if (nums1.length == 0) {
-            return (nums2[nums2.length / 2] + nums2[(nums2.length - 1) / 2]) / 2;
-        } else if (nums2.length == 0) {
-            return (nums1[nums1.length / 2] + nums1[(nums1.length - 1) / 2]) / 2;
-        }
-        return findMedian(nums1, nums2, 0, nums1.length - 1, 0, nums2.length - 1);
-    }
-
-    // A helper function for recursive purpose.
-    private double findMedian(int[] nums1, int[] nums2, int start1, int end1, int start2, int end2) {
-        if (start1 == end1 && start2 == end2) {
-            return (nums1[start1] + nums2[start2]) / 2;
+    public double findMedianSortedArrays(int[] A, int[] B) {
+        // To ensure A is always shorted than B.
+        if (A.length > B.length) {
+            int[] temp = A;
+            A = B;
+            B = temp;
         }
 
-        // Two median indices.
-        int medianIndex1 = (start1 + end1) / 2;
-        int medianIndex2 = (start2 + end2) / 2;
+        int iMin = 0;
+        int iMax = A.length;
+        int halfLen = (A.length + B.length + 1) / 2;
 
-        if (nums1[medianIndex1] < nums2[medianIndex2]) {
-            return findMedian(nums1, nums2, medianIndex1 + 1, end1, start2, medianIndex2);
-        } else if (nums1[medianIndex1] > nums2[medianIndex2]) {
-            return findMedian(nums1, nums2, start1, medianIndex1, medianIndex2 + 1, end2);
-        } else {
-            // Special considerations for the case when both lengths are even.
-            if (nums1.length % 2 == 0 && nums2.length % 2 == 0) {
-                int other = Math.min(nums1[medianIndex1 + 1], nums2[medianIndex2 + 1]);
-                return (nums1[medianIndex1] + other) / 2;
+        while (iMin <= iMax) {
+            int i = (iMin + iMax) / 2;
+            int j = halfLen - i;
+
+            if (i < iMax && B[j-1] > A[i]){
+                // i is too small
+                iMin = iMin + 1;
+            } else if (i > iMin && A[i-1] > B[j]) {
+                // i is too big
+                iMax = iMax - 1;
             } else {
-                return nums1[medianIndex1];
+                // i is perfect
+                int maxLeft = 0;
+
+                if (i == 0) {
+                    maxLeft = B[j-1];
+                } else if (j == 0) {
+                    maxLeft = A[i-1];
+                } else {
+                    maxLeft = Math.max(A[i-1], B[j-1]);
+                }
+
+                if ((A.length + B.length) % 2 == 1) {
+                    return maxLeft;
+                }
+
+                int minRight = 0;
+                if (i == A.length) {
+                    minRight = B[j];
+                } else if (j == B.length) {
+                    minRight = A[i];
+                } else {
+                    minRight = Math.min(B[j], A[i]);
+                }
+
+                return (maxLeft + minRight) / 2.0;
             }
         }
+        return 0.0;
     }
 }
