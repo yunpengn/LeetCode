@@ -32,12 +32,3 @@ public class AddTwoNumbers {
         return result.next;
     }
 }
-
-class ListNode {
-    int val;
-    ListNode next = null;
-
-    ListNode(int x) {
-        val = x;
-    }
-}
