@@ -36,8 +36,11 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/combine-two-tables/description/)] [[My Answer](src/leetcode/CombineTable.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139218896/)]
 176. Second Highest Salary<br>
-[[Problem](https://leetcode.com/problems/second-highest-salary/description/)] [[My Answer](src/leetcode/CombineTable.sql)] 
+[[Problem](https://leetcode.com/problems/second-highest-salary/description/)] [[My Answer](src/leetcode/SecondHighestSalary.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139219541/)]
+176. Nth Highest Salary<br>
+[[Problem](https://leetcode.com/problems/nth-highest-salary/description/)] [[My Answer](src/leetcode/NthHighestSalary.sql)] 
+[[Submission](https://leetcode.com/submissions/detail/139220171/)]
 
 ## Licence
 [GNU General Public Licence 3.0](LICENSE)
