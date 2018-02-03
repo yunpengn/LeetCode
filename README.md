@@ -35,6 +35,9 @@ I am passionate about programming and software engineering.
 175. Combine two tables<br>
 [[Problem](https://leetcode.com/problems/combine-two-tables/description/)] [[My Answer](src/leetcode/CombineTable.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139218896/)]
+175. Second Highest Salary<br>
+[[Problem](https://leetcode.com/problems/second-highest-salary/description/)] [[My Answer](src/leetcode/CombineTable.sql)] 
+[[Submission](https://leetcode.com/submissions/detail/139219541/)]
 
 ## Licence
 [GNU General Public Licence 3.0](LICENSE)
