@@ -28,6 +28,9 @@ I am passionate about programming and software engineering.
 5. Longest palindrome substring<br>
 [[Problem](https://leetcode.com/problems/longest-palindromic-substring/description/)] [[My Answer](src/leetcode/LongestPalindrome.java)] 
 [[Submission](https://leetcode.com/submissions/detail/139217013/)]
+6. Zigzag conversion<br>
+[[Problem](https://leetcode.com/problems/zigzag-conversion/description/)] [[My Answer](src/leetcode/ZigzagString.java)] 
+[[Submission](https://leetcode.com/submissions/detail/139218571/)]
 
 ## Licence
 [GNU General Public Licence 3.0](LICENSE)
