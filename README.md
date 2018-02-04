@@ -31,6 +31,9 @@ I am passionate about programming and software engineering.
 6. Zigzag conversion<br>
 [[Problem](https://leetcode.com/problems/zigzag-conversion/description/)] [[My Answer](src/leetcode/ZigzagString.java)] 
 [[Submission](https://leetcode.com/submissions/detail/139218571/)]
+7. Reverse integer<br>
+[[Problem](https://leetcode.com/problems/reverse-integer/description/)] [[My Answer](src/leetcode/ReverseInteger.java)] 
+[[Submission](https://leetcode.com/submissions/detail/139218571/)]
 
 175. Combine two tables<br>
 [[Problem](https://leetcode.com/problems/combine-two-tables/description/)] [[My Answer](src/leetcode/CombineTable.sql)] 
@@ -46,7 +49,7 @@ I am passionate about programming and software engineering.
 [[Submission](https://leetcode.com/submissions/detail/139305415/)]
 178. Consecutive Numbers<br>
 [[Problem](https://leetcode.com/problems/consecutive-numbers/description/)] [[My Answer](src/leetcode/ConsecutiveThreeTimes.sql)] 
-[[Submission](https://leetcode.com/submissions/detail/139307382/)]
+[[Submission](https://leetcode.com/submissions/detail/139315209/)]
 
 ## Licence
 [GNU General Public Licence 3.0](LICENSE)
