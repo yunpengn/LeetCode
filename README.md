@@ -44,6 +44,9 @@ I am passionate about programming and software engineering.
 178. Rank Scores<br>
 [[Problem](https://leetcode.com/problems/rank-scores/description/)] [[My Answer](src/leetcode/RankScores.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139305415/)]
+178. Consecutive Numbers<br>
+[[Problem](https://leetcode.com/problems/consecutive-numbers/description/)] [[My Answer](src/leetcode/ConsecutiveThreeTimes.sql)] 
+[[Submission](https://leetcode.com/submissions/detail/139307382/)]
 
 ## Licence
 [GNU General Public Licence 3.0](LICENSE)
