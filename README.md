@@ -62,6 +62,9 @@ I am passionate about programming and software engineering.
 182. Department Highest Salary<br>
 [[Problem](https://leetcode.com/problems/department-highest-salary/description/)] [[My Answer](src/leetcode/DepartmentHighest.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139325195/)]
+183. Department Top Three Salary<br>
+[[Problem](https://leetcode.com/problems/department-top-three-salaries/description/)] [[My Answer](src/leetcode/DepartmentTopThree.sql)] 
+[[Submission](https://leetcode.com/submissions/detail/139326809/)]
 
 ## Licence
 [GNU General Public Licence 3.0](LICENSE)
