@@ -71,6 +71,9 @@ I am passionate about programming and software engineering.
 197. Rising Temperature<br>
 [[Problem](https://leetcode.com/problems/rising-temperature/description/)] [[My Answer](src/leetcode/RisingTemperature.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139329452/)]
+262. Trips and Users<br>
+[[Problem](https://leetcode.com/problems/trips-and-users/description/)] [[My Answer](src/leetcode/TripsUsers.sql)] 
+[[Submission](https://leetcode.com/submissions/detail/139330730/)]
 
 ## Licence
 [GNU General Public Licence 3.0](LICENSE)
