@@ -38,9 +38,12 @@ I am passionate about programming and software engineering.
 176. Second Highest Salary<br>
 [[Problem](https://leetcode.com/problems/second-highest-salary/description/)] [[My Answer](src/leetcode/SecondHighestSalary.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139219541/)]
-176. Nth Highest Salary<br>
+177. Nth Highest Salary<br>
 [[Problem](https://leetcode.com/problems/nth-highest-salary/description/)] [[My Answer](src/leetcode/NthHighestSalary.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139220171/)]
+178. Rank Scores<br>
+[[Problem](https://leetcode.com/problems/rank-scores/description/)] [[My Answer](src/leetcode/RankScores.sql)] 
+[[Submission](https://leetcode.com/submissions/detail/139305415/)]
 
 ## Licence
 [GNU General Public Licence 3.0](LICENSE)
