@@ -59,6 +59,9 @@ I am passionate about programming and software engineering.
 181. Customers Who Never Order<br>
 [[Problem](https://leetcode.com/problems/customers-who-never-order/description/)] [[My Answer](src/leetcode/CustomerNeverOrder.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139318348/)]
+182. Department Highest Salary<br>
+[[Problem](https://leetcode.com/problems/department-highest-salary/description/)] [[My Answer](src/leetcode/DepartmentHighest.sql)] 
+[[Submission](https://leetcode.com/submissions/detail/139325195/)]
 
 ## Licence
 [GNU General Public Licence 3.0](LICENSE)
