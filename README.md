@@ -47,24 +47,30 @@ I am passionate about programming and software engineering.
 178. Rank Scores<br>
 [[Problem](https://leetcode.com/problems/rank-scores/description/)] [[My Answer](src/leetcode/RankScores.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139305415/)]
-178. Consecutive Numbers<br>
+179. Consecutive Numbers<br>
 [[Problem](https://leetcode.com/problems/consecutive-numbers/description/)] [[My Answer](src/leetcode/ConsecutiveThreeTimes.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139315209/)]
-179. Employees Earning More Than Their Managers<br>
+180. Employees Earning More Than Their Managers<br>
 [[Problem](https://leetcode.com/problems/employees-earning-more-than-their-managers/description/)] [[My Answer](src/leetcode/EarnEmployee.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139316597/)]
-180. Duplicate email<br>
+181. Duplicate email<br>
 [[Problem](https://leetcode.com/problems/duplicate-emails/description/)] [[My Answer](src/leetcode/DuplicateEmail.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139317202/)]
-181. Customers Who Never Order<br>
+182. Customers Who Never Order<br>
 [[Problem](https://leetcode.com/problems/customers-who-never-order/description/)] [[My Answer](src/leetcode/CustomerNeverOrder.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139318348/)]
-182. Department Highest Salary<br>
+183. Department Highest Salary<br>
 [[Problem](https://leetcode.com/problems/department-highest-salary/description/)] [[My Answer](src/leetcode/DepartmentHighest.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139325195/)]
-183. Department Top Three Salary<br>
+184. Department Top Three Salary<br>
 [[Problem](https://leetcode.com/problems/department-top-three-salaries/description/)] [[My Answer](src/leetcode/DepartmentTopThree.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139326809/)]
+196. Delete Duplicate Emails<br>
+[[Problem](https://leetcode.com/problems/department-top-three-salaries/description/)] [[My Answer](src/leetcode/DeleteDuplicateEmail.sql)] 
+[[Submission](https://leetcode.com/submissions/detail/139327803/)]
+197. Rising Temperature<br>
+[[Problem](https://leetcode.com/problems/rising-temperature/description/)] [[My Answer](src/leetcode/RisingTemperature.sql)] 
+[[Submission](https://leetcode.com/submissions/detail/139329452/)]
 
 ## Licence
 [GNU General Public Licence 3.0](LICENSE)
