@@ -74,6 +74,9 @@ I am passionate about programming and software engineering.
 262. Trips and Users<br>
 [[Problem](https://leetcode.com/problems/trips-and-users/description/)] [[My Answer](src/leetcode/TripsUsers.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139330730/)]
+595. Big Countries<br>
+[[Problem](https://leetcode.com/problems/big-countries/description/)] [[My Answer](src/leetcode/BigCountries.sql)] 
+[[Submission](https://leetcode.com/submissions/detail/139331256/)]
 
 ## Licence
 [GNU General Public Licence 3.0](LICENSE)
