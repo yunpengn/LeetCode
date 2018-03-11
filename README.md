@@ -34,6 +34,9 @@ I am passionate about programming and software engineering.
 7. Reverse integer<br>
 [[Problem](https://leetcode.com/problems/reverse-integer/description/)] [[My Answer](src/leetcode/ReverseInteger.java)] 
 [[Submission](https://leetcode.com/submissions/detail/139218571/)]
+9. Palindrome number<br>
+[[Problem](https://leetcode.com/problems/palindrome-number/description/)] [[My Answer](src/leetcode/PalindromeNumber.java)] 
+[[Submission](https://leetcode.com/submissions/detail/144564924/)]
 
 175. Combine two tables<br>
 [[Problem](https://leetcode.com/problems/combine-two-tables/description/)] [[My Answer](src/leetcode/CombineTable.sql)] 
