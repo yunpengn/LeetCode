@@ -80,6 +80,9 @@ I am passionate about programming and software engineering.
 595. Big Countries<br>
 [[Problem](https://leetcode.com/problems/big-countries/description/)] [[My Answer](src/leetcode/BigCountries.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139331256/)]
+596. More than 5 students<br>
+[[Problem](https://leetcode.com/problems/classes-more-than-5-students/description/)] [[My Answer](src/leetcode/MoreThanFiveStudents.sql)] 
+[[Submission](https://leetcode.com/submissions/detail/144565425/)]
 
 ## Licence
 [GNU General Public Licence 3.0](LICENSE)
