@@ -1,5 +1,7 @@
 # LeetCode
 
+[![Build Status](https://travis-ci.org/yunpengn/LeetCode.svg?branch=master)](https://travis-ci.org/yunpengn/LeetCode)
+
 This repository contains my solutions to some selected programming problems on [LeetCode](https://leetcode.com/).
 
 ## About Me
