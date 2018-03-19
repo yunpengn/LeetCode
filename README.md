@@ -1,6 +1,7 @@
 # LeetCode
 
 [![Build Status](https://travis-ci.org/yunpengn/LeetCode.svg?branch=master)](https://travis-ci.org/yunpengn/LeetCode)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/089367c33a5a49e0983c02236205473d)](https://www.codacy.com/app/yunpengn/LeetCode?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=yunpengn/LeetCode&amp;utm_campaign=Badge_Grade)
 
 This repository contains my solutions to some selected programming problems on [LeetCode](https://leetcode.com/).
 
