@@ -7,6 +7,9 @@
 # IntelliJ IDEA specific
 .idea/
 
+# Intellij IDEA output folder
+/out
+
 # BlueJ files
 *.ctxt
 
