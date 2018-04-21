@@ -28,10 +28,8 @@ sourceSets {
 }
 
 test {
-    if (System.env.'CI') {
-        beforeTest { descriptor ->
-            logger.lifecycle('Running test: ' + descriptor)
-        }
+    beforeTest { descriptor ->
+        logger.lifecycle('Running test: ' + descriptor)
     }
 }
 
