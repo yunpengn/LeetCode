@@ -7,7 +7,6 @@ sourceSets {
         }
     }
     test {
-        useJUnitPlatform()
         java {
             srcDirs = ['test']
         }
