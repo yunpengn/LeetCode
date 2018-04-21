@@ -1,19 +1,19 @@
 apply plugin: 'java'
 
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation(
+            'org.junit.jupiter:junit-jupiter-api:5.1.0'
+    )
+    testRuntimeOnly(
+            'org.junit.jupiter:junit-jupiter-engine:5.1.0'
+    )
+}
+
 sourceSets {
-    repositories {
-        mavenCentral()
-    }
-
-    dependencies {
-        testImplementation(
-                'org.junit.jupiter:junit-jupiter-api:5.1.0'
-        )
-        testRuntimeOnly(
-                'org.junit.jupiter:junit-jupiter-engine:5.1.0'
-        )
-    }
-
     main {
         java {
             srcDirs = ['src']
@@ -21,18 +21,20 @@ sourceSets {
     }
 
     test {
-        if (System.env.'CI') {
-            beforeTest { descriptor ->
-                logger.lifecycle('Running test: ' + descriptor)
-            }
-        }
-        
         java {
             srcDirs = ['test']
         }
     }
+}
 
-    task wrapper(type: Wrapper) {
-        gradleVersion = '4.6'
+test {
+    if (System.env.'CI') {
+        beforeTest { descriptor ->
+            logger.lifecycle('Running test: ' + descriptor)
+        }
     }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '4.6'
 }
