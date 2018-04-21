@@ -1,11 +1,25 @@
 apply plugin: 'java'
 
 sourceSets {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        testImplementation(
+                'org.junit.jupiter:junit-jupiter-api:5.1.0'
+        )
+        testRuntimeOnly(
+                'org.junit.jupiter:junit-jupiter-engine:5.1.0'
+        )
+    }
+
     main {
         java {
             srcDirs = ['src']
         }
     }
+
     test {
         java {
             srcDirs = ['test']
