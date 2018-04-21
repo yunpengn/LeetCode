@@ -16,6 +16,8 @@ I am passionate about programming and software engineering.
 
 ## Table of Contents
 
+#### Algorithms
+
 1. Two sum<br>
 [[Problem](https://leetcode.com/problems/two-sum/description/)] [[My Answer](src/leetcode/TwoSum.java)] 
 [[Submission](https://leetcode.com/submissions/detail/136909312/)]
@@ -43,6 +45,8 @@ I am passionate about programming and software engineering.
 11. Container With Most Water<br>
 [[Problem](https://leetcode.com/problems/container-with-most-water/description/)] [[My Answer](src/leetcode/WaterContainer.java)] 
 [[Submission](https://leetcode.com/submissions/detail/145242545/)]
+
+#### Database
 
 175. Combine two tables<br>
 [[Problem](https://leetcode.com/problems/combine-two-tables/description/)] [[My Answer](src/leetcode/CombineTable.sql)] 
