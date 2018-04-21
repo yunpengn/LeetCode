@@ -1,4 +1,4 @@
 language: java
 matrix:
     include:
-        - jdk: oraclejdk10
+        - jdk: oraclejdk9
