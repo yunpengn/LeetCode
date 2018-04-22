@@ -4,6 +4,8 @@ package practice;
  * A naive implementation of quicksort, whose average time complexity is O(n * logn),
  * while worst case could grow up to O(n^2).
  *
+ * Notice: The sorting result is in ascending order.
+ *
  * @author Niu Yunpeng
  */
 public class Quicksort {
