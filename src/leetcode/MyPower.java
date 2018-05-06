@@ -16,11 +16,7 @@ public class MyPower {
             }
         } else if (n < 0) {
             if (n == Integer.MIN_VALUE) {
-                if (x == 1 || x == -1) {
-                    return 1;
-                } else {
-                    return 0;
-                }
+                return myPow(x, n + 1) / x;
             }
             n = -n;
             while (n > 0) {
