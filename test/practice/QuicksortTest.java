@@ -45,7 +45,6 @@ class QuicksortTest {
         assertArrayEquals(result, input, "The 3rd sorting result is wrong.");
     }
 
-    @Test
     @RepeatedTest(30)
     void randomData() {
         int[] input = null;

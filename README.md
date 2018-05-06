@@ -45,6 +45,9 @@ I am passionate about programming and software engineering.
 11. Container With Most Water<br>
 [[Problem](https://leetcode.com/problems/container-with-most-water/description/)] [[My Answer](src/leetcode/WaterContainer.java)] 
 [[Submission](https://leetcode.com/submissions/detail/145242545/)]
+50. My Power<br>
+[[Problem](https://leetcode.com/problems/powx-n/description/)] [[My Answer](src/leetcode/MyPower.java)] 
+[[Submission](https://leetcode.com/submissions/detail/153032047/)]
 
 #### Database
 
