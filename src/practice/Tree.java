@@ -1,9 +1,9 @@
-package sea;
+package practice;
 
 import java.util.ArrayList;
 
 /**
- * A binary search tree. You can also view this class as a `Tree Node`
+ * A binary search tree. You can also view this class as a `Tree Node`.
  *
  * @param <T> must be comparable.
  */
@@ -17,7 +17,7 @@ public class Tree<T extends Comparable<T>> {
         this.value = value;
     }
 
-    public ArrayList<T> inOrderTraversal() {
+    private ArrayList<T> inOrderTraversal() {
         ArrayList<T> leftResult = leftChild == null ? leftChild.inOrderTraversal()
                 : new ArrayList<>();
         ArrayList<T> rightResult = rightChild == null ? rightChild.inOrderTraversal()
