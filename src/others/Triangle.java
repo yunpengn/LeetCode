@@ -1,7 +1,5 @@
 package others;
 
-import java.util.Arrays;
-
 public class Triangle {
     static String[] triangleOrNot(int[] a, int[] b, int[] c) {
         // Pre-condition: we assume arrays a, b and c are of the same length.
