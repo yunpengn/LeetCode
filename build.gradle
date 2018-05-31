@@ -1,4 +1,6 @@
-apply plugin: 'java'
+plugins {
+    id 'java'
+}
 
 group 'org.yunpeng'
 version '1.0-SNAPSHOT'

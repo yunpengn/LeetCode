@@ -4,11 +4,15 @@
 # Log file
 *.log
 
+# Gradle folder
+.gradle/
+
 # IntelliJ IDEA specific
 .idea/
 
 # Intellij IDEA output folder
-/out
+out/
+build/
 
 # BlueJ files
 *.ctxt
