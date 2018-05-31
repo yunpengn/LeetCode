@@ -51,6 +51,9 @@ I am passionate about programming and software engineering.
 50. My Power<br>
 [[Problem](https://leetcode.com/problems/powx-n/description/)] [[My Answer](src/leetcode/MyPower.java)] 
 [[Submission](https://leetcode.com/submissions/detail/153032047/)]
+120. Triangle<br>
+[[Problem](https://leetcode.com/problems/triangle/description/)] [[My Answer](src/leetcode/TriangleMinPath.java)] 
+[[Submission](https://leetcode.com/submissions/detail/156729228/)]
 
 #### Database
 
