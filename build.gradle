@@ -4,8 +4,6 @@ plugins {
 
 group 'org.yunpeng'
 version '1.0-SNAPSHOT'
-sourceCompatibility=1.8
-targetCompatibility=1.8
 
 repositories {
     mavenCentral()
@@ -20,12 +18,13 @@ dependencies {
     )
 }
 
+task wrapper(type: Wrapper) {
+    gradleVersion = '4.7'
+}
+
 test {
+    useJUnitPlatform()
     beforeTest { descriptor ->
         logger.lifecycle('Running test: ' + descriptor)
     }
-}
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '4.7'
 }
