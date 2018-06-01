@@ -48,6 +48,9 @@ I am passionate about programming and software engineering.
 13. Roman to Integer<br>
 [[Problem](https://leetcode.com/problems/roman-to-integer/description/)] [[My Answer](src/main/java/leetcode/RomanToInteger.java)] 
 [[Submission](https://leetcode.com/submissions/detail/156725644/)]
+23. Merge k Sorted Lists<br>
+[[Problem](https://leetcode.com/problems/merge-k-sorted-lists/description/)] [[My Answer](src/main/java/leetcode/MergeLists.java)] 
+[[Submission](https://leetcode.com/submissions/detail/156725644/)]
 50. My Power<br>
 [[Problem](https://leetcode.com/problems/powx-n/description/)] [[My Answer](src/main/java/leetcode/MyPower.java)] 
 [[Submission](https://leetcode.com/submissions/detail/153032047/)]
