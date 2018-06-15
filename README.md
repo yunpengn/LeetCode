@@ -48,8 +48,11 @@ I am passionate about programming and software engineering.
 13. Roman to Integer<br>
 [[Problem](https://leetcode.com/problems/roman-to-integer/description/)] [[My Answer](src/main/java/leetcode/RomanToInteger.java)] 
 [[Submission](https://leetcode.com/submissions/detail/156725644/)]
+20. Valid Parentheses<br>
+[[Problem](https://leetcode.com/problems/roman-to-integer/description/)] [[My Answer](src/main/java/leetcode/ValidParentheses.java)] 
+[[Submission](https://leetcode.com/submissions/detail/159054217/)]
 23. Merge k Sorted Lists<br>
-[[Problem](https://leetcode.com/problems/merge-k-sorted-lists/description/)] [[My Answer](src/main/java/leetcode/MergeLists.java)] 
+[[Problem](https://leetcode.com/problems/valid-parentheses/description/)] [[My Answer](src/main/java/leetcode/MergeLists.java)] 
 [[Submission](https://leetcode.com/submissions/detail/156725644/)]
 50. My Power<br>
 [[Problem](https://leetcode.com/problems/powx-n/description/)] [[My Answer](src/main/java/leetcode/MyPower.java)] 
