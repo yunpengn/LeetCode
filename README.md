@@ -108,6 +108,10 @@ I am passionate about programming and software engineering.
 596. More than 5 students<br>
 [[Problem](https://leetcode.com/problems/classes-more-than-5-students/description/)] [[My Answer](src/main/java/leetcode/sql/MoreThanFiveStudents.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/144565425/)]
+601. Human Traffic of Stadium<br>
+[[Problem](https://leetcode.com/problems/human-traffic-of-stadium/description/)] [[My Answer](src/main/java/leetcode/sql/HumanTraffic.sql)] 
+[[Submission](https://leetcode.com/submissions/detail/159048409/)]
 
 ## Licence
+
 [GNU General Public Licence 3.0](LICENSE)
