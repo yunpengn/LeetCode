@@ -63,6 +63,9 @@ I am passionate about programming and software engineering.
 279. Perfect Square<br>
 [[Problem](https://leetcode.com/problems/perfect-squares/description/)] [[My Answer](src/main/java/leetcode/PerfectSquare.java)] 
 [[Submission](https://leetcode.com/submissions/detail/156877950/)]
+290. Word Pattern<br>
+[[Problem](https://leetcode.com/problems/word-pattern/description/)] [[My Answer](src/main/java/leetcode/WordPattern.java)] 
+[[Submission](https://leetcode.com/submissions/detail/159062813/)]
 745. Reach a Number<br>
 [[Problem](https://leetcode.com/problems/reach-a-number/description/)] [[My Answer](src/main/java/leetcode/ReachNumber.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159060358/)]
