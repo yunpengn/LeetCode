@@ -66,6 +66,9 @@ I am passionate about programming and software engineering.
 169. Majority Element<br>
 [[Problem](https://leetcode.com/problems/majority-element/description/)] [[My Answer](src/main/java/leetcode/MajorityElement.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159211732/)]
+187. Repeated DNA Sequence<br>
+[[Problem](https://leetcode.com/problems/repeated-dna-sequences/description/)] [[My Answer](src/main/java/leetcode/RepeatedDNA.java)] 
+[[Submission](https://leetcode.com/submissions/detail/159212182//)]
 279. Perfect Square<br>
 [[Problem](https://leetcode.com/problems/perfect-squares/description/)] [[My Answer](src/main/java/leetcode/PerfectSquare.java)] 
 [[Submission](https://leetcode.com/submissions/detail/156877950/)]
