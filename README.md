@@ -59,7 +59,7 @@ I am passionate about programming and software engineering.
 [[Submission](https://leetcode.com/submissions/detail/153032047/)]
 114. Flatten Binary Tree to Linked List<br>
 [[Problem](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)] [[My Answer](src/main/java/leetcode/FlattenTree.java)] 
-[[Submission](https://leetcode.com/submissions/detail/153032047/)]
+[[Submission](https://leetcode.com/submissions/detail/159213228/)]
 120. Triangle<br>
 [[Problem](https://leetcode.com/problems/triangle/description/)] [[My Answer](src/main/java/leetcode/TriangleMinPath.java)] 
 [[Submission](https://leetcode.com/submissions/detail/156729228/)]
