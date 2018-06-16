@@ -57,6 +57,9 @@ I am passionate about programming and software engineering.
 50. My Power<br>
 [[Problem](https://leetcode.com/problems/powx-n/description/)] [[My Answer](src/main/java/leetcode/MyPower.java)] 
 [[Submission](https://leetcode.com/submissions/detail/153032047/)]
+104. Maximum Depth of Binary Tree<br>
+[[Problem](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)] [[My Answer](src/main/java/leetcode/MaximumDepth.java)] 
+[[Submission](https://leetcode.com/submissions/detail/159213498/)]
 114. Flatten Binary Tree to Linked List<br>
 [[Problem](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)] [[My Answer](src/main/java/leetcode/FlattenTree.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159213228/)]
