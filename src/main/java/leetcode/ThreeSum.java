@@ -38,15 +38,17 @@ public class ThreeSum {
             int j = i + 1;
             int k = nums.length - 1;
             // The algorithm is correct since the array has been sorted.
-            while (j < k) {
+            while (j < nums.length && j < k) {
                 num2 = nums[j];
                 num3 = nums[k];
                 sum = num1 + num2 + num3;
 
                 if (sum == 0) {
                     result.add(Arrays.asList(num1, num2, num3));
-                    j++;
-                    k--;
+                    do {
+                        j++;
+                        k--;
+                    } while (j < nums.length && j < k && nums[j] == num2 && nums[k] == num3);
                 } else if (sum < 0) {
                     j++;
                 } else {
