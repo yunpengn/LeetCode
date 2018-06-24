@@ -54,6 +54,9 @@ I am passionate about programming and software engineering.
 13. Integer to Roman<br>
 [[Problem](https://leetcode.com/problems/roman-to-integer/description/)] [[My Answer](src/main/java/leetcode/RomanToInteger.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160472946/)]
+14. Longest Common Prefix<br>
+[[Problem](https://leetcode.com/problems/longest-common-prefix/description/)] [[My Answer](src/main/java/leetcode/LongestCommonPrefix.java)] 
+[[Submission](https://leetcode.com/submissions/detail/160474836/)]
 15. Three Sum<br>
 [[Problem](https://leetcode.com/problems/3sum/description/)] [[My Answer](src/main/java/leetcode/ThreeSum.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160154891/)]
