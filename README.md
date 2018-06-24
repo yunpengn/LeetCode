@@ -39,6 +39,9 @@ I am passionate about programming and software engineering.
 7. Reverse integer<br>
 [[Problem](https://leetcode.com/problems/reverse-integer/description/)] [[My Answer](src/main/java/leetcode/ReverseInteger.java)] 
 [[Submission](https://leetcode.com/submissions/detail/139218571/)]
+8. String to Integer (ATOI)<br>
+[[Problem](https://leetcode.com/problems/string-to-integer-atoi/description/)] [[My Answer](src/main/java/leetcode/StringToInteger.java)] 
+[[Submission](https://leetcode.com/submissions/detail/160471068/)]
 9. Palindrome number<br>
 [[Problem](https://leetcode.com/problems/palindrome-number/description/)] [[My Answer](src/main/java/leetcode/PalindromeNumber.java)] 
 [[Submission](https://leetcode.com/submissions/detail/144564924/)]
