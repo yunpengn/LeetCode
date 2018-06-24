@@ -84,6 +84,9 @@ I am passionate about programming and software engineering.
 745. Reach a Number<br>
 [[Problem](https://leetcode.com/problems/reach-a-number/description/)] [[My Answer](src/main/java/leetcode/ReachNumber.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159060358/)]
+859. Buddy String<br>
+[[Problem](https://leetcode.com/problems/buddy-strings/description/)] [[My Answer](src/main/java/leetcode/BuddyString.java)] 
+[[Submission](https://leetcode.com/submissions/detail/160468546/)]
 
 #### Database
 
