@@ -1,6 +1,5 @@
 package leetcode;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -19,8 +18,32 @@ public class LetterCombination {
     }
 
     public List<String> letterCombinations(String digits) {
-        List<String> result = new LinkedList<>();
+        LinkedList<String> result = new LinkedList<>();
+
+        // Exits first for an empty string.
+        if (digits == null || digits.isEmpty()) {
+            return result;
+        }
+
+        // Iterates through every digit.
+        result.add("");
+        for (int i = 0; i < digits.length(); i++) {
+            char current = digits.charAt(i);
+            String currentString = mapping[toNumber(current)];
+
+            while (result.getFirst().length() == i) {
+                String previous = result.removeFirst();
+
+                for (int j = 0; j < currentString.length(); j++) {
+                    result.add(previous + currentString.charAt(j));
+                }
+            }
+        }
 
         return result;
+    }
+
+    private int toNumber(char c) {
+        return c - 48;
     }
 }
