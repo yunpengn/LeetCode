@@ -60,8 +60,11 @@ I am passionate about programming and software engineering.
 15. Three Sum<br>
 [[Problem](https://leetcode.com/problems/3sum/description/)] [[My Answer](src/main/java/leetcode/ThreeSum.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160154891/)]
-15. Three Sum Closest<br>
+16. Three Sum Closest<br>
 [[Problem](https://leetcode.com/problems/3sum-closest/description/)] [[My Answer](src/main/java/leetcode/ThreeSumClosest.java)] 
+[[Submission](https://leetcode.com/submissions/detail/160743725/)]
+17. Letter Combinations of a Phone Number<br>
+[[Problem](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)] [[My Answer](src/main/java/leetcode/LetterCombination.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160743725/)]
 20. Valid Parentheses<br>
 [[Problem](https://leetcode.com/problems/roman-to-integer/description/)] [[My Answer](src/main/java/leetcode/ValidParentheses.java)] 
