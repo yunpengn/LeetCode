@@ -66,6 +66,9 @@ I am passionate about programming and software engineering.
 17. Letter Combinations of a Phone Number<br>
 [[Problem](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)] [[My Answer](src/main/java/leetcode/LetterCombination.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160748269/)]
+18. Four Sum<br>
+[[Problem](https://leetcode.com/problems/4sum/description/)] [[My Answer](src/main/java/leetcode/FourSum.java)] 
+[[Submission](https://leetcode.com/submissions/detail/160748269/)]
 20. Valid Parentheses<br>
 [[Problem](https://leetcode.com/problems/roman-to-integer/description/)] [[My Answer](src/main/java/leetcode/ValidParentheses.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159054217/)]
