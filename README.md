@@ -97,7 +97,7 @@ I am passionate about programming and software engineering.
 21. Merge Two Sorted Lists<br>
 [[Problem](https://leetcode.com/problems/merge-two-sorted-lists/description/)] 
 [[My Answer](src/main/java/leetcode/list/MergeLists.java)] 
-[[Submission](https://leetcode.com/submissions/detail/159054217/)]
+[[Submission](https://leetcode.com/submissions/detail/160949830/)]
 23. Merge k Sorted Lists<br>
 [[Problem](https://leetcode.com/problems/valid-parentheses/description/)] 
 [[My Answer](src/main/java/leetcode/list/MergeLists.java)] 
