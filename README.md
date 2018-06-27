@@ -114,6 +114,10 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)] 
 [[My Answer](src/main/java/leetcode/list/RemoveDuplicates.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160955157/)]
+27. Remove Element<br>
+[[Problem](https://leetcode.com/problems/remove-element/description/)] 
+[[My Answer](src/main/java/leetcode/list/RemoveElement.java)] 
+[[Submission](https://leetcode.com/submissions/detail/160955157/)]
 50. My Power<br>
 [[Problem](https://leetcode.com/problems/powx-n/description/)] 
 [[My Answer](src/main/java/leetcode/MyPower.java)] 
