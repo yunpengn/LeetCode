@@ -28,7 +28,7 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)] [[My Answer](src/main/java/leetcode/LongestNonRepeatSubstring.java)] 
 [[Submission](https://leetcode.com/submissions/detail/136972086/)]
 4. Medians of two sorted arrays<br>
-[[Problem](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)] [[My Answer](src/main/java/leetcode/TwoArrayMedian.java)] 
+[[Problem](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)] [[My Answer](src/main/java/leetcode/list/TwoArrayMedian.java)] 
 [[Submission](https://leetcode.com/submissions/detail/136980621/)]
 5. Longest palindrome substring<br>
 [[Problem](https://leetcode.com/problems/longest-palindromic-substring/description/)] [[My Answer](src/main/java/leetcode/LongestPalindrome.java)] 
@@ -70,31 +70,31 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/4sum/description/)] [[My Answer](src/main/java/leetcode/FourSum.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160907868/)]
 19. Remove Nth Node From End of List<br>
-[[Problem](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)] [[My Answer](src/main/java/leetcode/RemoveFromEnd.java)] 
+[[Problem](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)] [[My Answer](src/main/java/leetcode/list/RemoveFromEnd.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160922740/)]
 20. Valid Parentheses<br>
 [[Problem](https://leetcode.com/problems/roman-to-integer/description/)] [[My Answer](src/main/java/leetcode/ValidParentheses.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159054217/)]
 23. Merge k Sorted Lists<br>
-[[Problem](https://leetcode.com/problems/valid-parentheses/description/)] [[My Answer](src/main/java/leetcode/MergeLists.java)] 
+[[Problem](https://leetcode.com/problems/valid-parentheses/description/)] [[My Answer](src/main/java/leetcode/list/MergeLists.java)] 
 [[Submission](https://leetcode.com/submissions/detail/156725644/)]
 50. My Power<br>
 [[Problem](https://leetcode.com/problems/powx-n/description/)] [[My Answer](src/main/java/leetcode/MyPower.java)] 
 [[Submission](https://leetcode.com/submissions/detail/153032047/)]
 104. Maximum Depth of Binary Tree<br>
-[[Problem](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)] [[My Answer](src/main/java/leetcode/MaximumDepth.java)] 
+[[Problem](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)] [[My Answer](src/main/java/leetcode/tree/MaximumDepth.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159213498/)]
 114. Flatten Binary Tree to Linked List<br>
-[[Problem](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)] [[My Answer](src/main/java/leetcode/FlattenTree.java)] 
+[[Problem](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)] [[My Answer](src/main/java/leetcode/tree/FlattenTree.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159213228/)]
 120. Triangle<br>
 [[Problem](https://leetcode.com/problems/triangle/description/)] [[My Answer](src/main/java/leetcode/TriangleMinPath.java)] 
 [[Submission](https://leetcode.com/submissions/detail/156729228/)]
 141. Linked List Cycle<br>
-[[Problem](https://leetcode.com/problems/linked-list-cycle/description/)] [[My Answer](src/main/java/leetcode/LinkedListCycle.java)] 
+[[Problem](https://leetcode.com/problems/linked-list-cycle/description/)] [[My Answer](src/main/java/leetcode/list/LinkedListCycle.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159065345/)]
 169. Majority Element<br>
-[[Problem](https://leetcode.com/problems/majority-element/description/)] [[My Answer](src/main/java/leetcode/MajorityElement.java)] 
+[[Problem](https://leetcode.com/problems/majority-element/description/)] [[My Answer](src/main/java/leetcode/list/MajorityElement.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159211732/)]
 187. Repeated DNA Sequence<br>
 [[Problem](https://leetcode.com/problems/repeated-dna-sequences/description/)] [[My Answer](src/main/java/leetcode/RepeatedDNA.java)] 
