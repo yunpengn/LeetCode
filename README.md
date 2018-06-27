@@ -19,97 +19,128 @@ I am passionate about programming and software engineering.
 #### Algorithms
 
 1. Two sum<br>
-[[Problem](https://leetcode.com/problems/two-sum/description/)] [[My Answer](src/main/java/leetcode/TwoSum.java)] 
+[[Problem](https://leetcode.com/problems/two-sum/description/)] 
+[[My Answer](src/main/java/leetcode/TwoSum.java)] 
 [[Submission](https://leetcode.com/submissions/detail/136909312/)]
 2. Add two numbers<br>
-[[Problem](https://leetcode.com/problems/add-two-numbers/description/)] [[My Answer](src/main/java/leetcode/AddTwoNumbers.java)] 
+[[Problem](https://leetcode.com/problems/add-two-numbers/description/)] 
+[[My Answer](src/main/java/leetcode/AddTwoNumbers.java)] 
 [[Submission](https://leetcode.com/submissions/detail/136911509/)]
 3. Longest substring without repeating characters<br>
-[[Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)] [[My Answer](src/main/java/leetcode/LongestNonRepeatSubstring.java)] 
+[[Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)] 
+[[My Answer](src/main/java/leetcode/LongestNonRepeatSubstring.java)] 
 [[Submission](https://leetcode.com/submissions/detail/136972086/)]
 4. Medians of two sorted arrays<br>
-[[Problem](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)] [[My Answer](src/main/java/leetcode/list/TwoArrayMedian.java)] 
+[[Problem](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)] 
+[[My Answer](src/main/java/leetcode/list/TwoArrayMedian.java)] 
 [[Submission](https://leetcode.com/submissions/detail/136980621/)]
 5. Longest palindrome substring<br>
-[[Problem](https://leetcode.com/problems/longest-palindromic-substring/description/)] [[My Answer](src/main/java/leetcode/LongestPalindrome.java)] 
+[[Problem](https://leetcode.com/problems/longest-palindromic-substring/description/)] 
+[[My Answer](src/main/java/leetcode/LongestPalindrome.java)] 
 [[Submission](https://leetcode.com/submissions/detail/139217013/)]
 6. Zigzag conversion<br>
-[[Problem](https://leetcode.com/problems/zigzag-conversion/description/)] [[My Answer](src/main/java/leetcode/ZigzagString.java)] 
+[[Problem](https://leetcode.com/problems/zigzag-conversion/description/)] 
+[[My Answer](src/main/java/leetcode/ZigzagString.java)] 
 [[Submission](https://leetcode.com/submissions/detail/139218571/)]
 7. Reverse integer<br>
-[[Problem](https://leetcode.com/problems/reverse-integer/description/)] [[My Answer](src/main/java/leetcode/ReverseInteger.java)] 
+[[Problem](https://leetcode.com/problems/reverse-integer/description/)] 
+[[My Answer](src/main/java/leetcode/ReverseInteger.java)] 
 [[Submission](https://leetcode.com/submissions/detail/139218571/)]
 8. String to Integer (ATOI)<br>
-[[Problem](https://leetcode.com/problems/string-to-integer-atoi/description/)] [[My Answer](src/main/java/leetcode/StringToInteger.java)] 
+[[Problem](https://leetcode.com/problems/string-to-integer-atoi/description/)] 
+[[My Answer](src/main/java/leetcode/StringToInteger.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160471068/)]
 9. Palindrome number<br>
-[[Problem](https://leetcode.com/problems/palindrome-number/description/)] [[My Answer](src/main/java/leetcode/PalindromeNumber.java)] 
+[[Problem](https://leetcode.com/problems/palindrome-number/description/)] 
+[[My Answer](src/main/java/leetcode/PalindromeNumber.java)] 
 [[Submission](https://leetcode.com/submissions/detail/144564924/)]
 11. Container with Most Water<br>
-[[Problem](https://leetcode.com/problems/container-with-most-water/description/)] [[My Answer](src/main/java/leetcode/WaterContainer.java)] 
+[[Problem](https://leetcode.com/problems/container-with-most-water/description/)] 
+[[My Answer](src/main/java/leetcode/WaterContainer.java)] 
 [[Submission](https://leetcode.com/submissions/detail/145242545/)]
 12. Integer to Roman<br>
-[[Problem](https://leetcode.com/problems/integer-to-roman/description/)] [[My Answer](src/main/java/leetcode/IntegerToRoman.java)] 
+[[Problem](https://leetcode.com/problems/integer-to-roman/description/)] 
+[[My Answer](src/main/java/leetcode/IntegerToRoman.java)] 
 [[Submission](https://leetcode.com/submissions/detail/145242545/)]
 13. Integer to Roman<br>
-[[Problem](https://leetcode.com/problems/roman-to-integer/description/)] [[My Answer](src/main/java/leetcode/RomanToInteger.java)] 
+[[Problem](https://leetcode.com/problems/roman-to-integer/description/)] 
+[[My Answer](src/main/java/leetcode/RomanToInteger.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160472946/)]
 14. Longest Common Prefix<br>
-[[Problem](https://leetcode.com/problems/longest-common-prefix/description/)] [[My Answer](src/main/java/leetcode/LongestCommonPrefix.java)] 
+[[Problem](https://leetcode.com/problems/longest-common-prefix/description/)] 
+[[My Answer](src/main/java/leetcode/LongestCommonPrefix.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160474836/)]
 15. Three Sum<br>
-[[Problem](https://leetcode.com/problems/3sum/description/)] [[My Answer](src/main/java/leetcode/ThreeSum.java)] 
+[[Problem](https://leetcode.com/problems/3sum/description/)] 
+[[My Answer](src/main/java/leetcode/ThreeSum.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160154891/)]
 16. Three Sum Closest<br>
-[[Problem](https://leetcode.com/problems/3sum-closest/description/)] [[My Answer](src/main/java/leetcode/ThreeSumClosest.java)] 
+[[Problem](https://leetcode.com/problems/3sum-closest/description/)] 
+[[My Answer](src/main/java/leetcode/ThreeSumClosest.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160743725/)]
 17. Letter Combinations of a Phone Number<br>
-[[Problem](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)] [[My Answer](src/main/java/leetcode/LetterCombination.java)] 
+[[Problem](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)] 
+[[My Answer](src/main/java/leetcode/LetterCombination.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160748269/)]
 18. Four Sum<br>
-[[Problem](https://leetcode.com/problems/4sum/description/)] [[My Answer](src/main/java/leetcode/FourSum.java)] 
+[[Problem](https://leetcode.com/problems/4sum/description/)] 
+[[My Answer](src/main/java/leetcode/FourSum.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160907868/)]
 19. Remove Nth Node From End of List<br>
-[[Problem](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)] [[My Answer](src/main/java/leetcode/list/RemoveFromEnd.java)] 
+[[Problem](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)] 
+[[My Answer](src/main/java/leetcode/list/RemoveFromEnd.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160922740/)]
 20. Valid Parentheses<br>
-[[Problem](https://leetcode.com/problems/roman-to-integer/description/)] [[My Answer](src/main/java/leetcode/ValidParentheses.java)] 
+[[Problem](https://leetcode.com/problems/roman-to-integer/description/)] 
+[[My Answer](src/main/java/leetcode/ValidParentheses.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159054217/)]
 23. Merge k Sorted Lists<br>
-[[Problem](https://leetcode.com/problems/valid-parentheses/description/)] [[My Answer](src/main/java/leetcode/list/MergeLists.java)] 
+[[Problem](https://leetcode.com/problems/valid-parentheses/description/)] 
+[[My Answer](src/main/java/leetcode/list/MergeLists.java)] 
 [[Submission](https://leetcode.com/submissions/detail/156725644/)]
 50. My Power<br>
-[[Problem](https://leetcode.com/problems/powx-n/description/)] [[My Answer](src/main/java/leetcode/MyPower.java)] 
+[[Problem](https://leetcode.com/problems/powx-n/description/)] 
+[[My Answer](src/main/java/leetcode/MyPower.java)] 
 [[Submission](https://leetcode.com/submissions/detail/153032047/)]
 104. Maximum Depth of Binary Tree<br>
-[[Problem](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)] [[My Answer](src/main/java/leetcode/tree/MaximumDepth.java)] 
+[[Problem](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)] 
+[[My Answer](src/main/java/leetcode/tree/MaximumDepth.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159213498/)]
 114. Flatten Binary Tree to Linked List<br>
-[[Problem](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)] [[My Answer](src/main/java/leetcode/tree/FlattenTree.java)] 
+[[Problem](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)] 
+[[My Answer](src/main/java/leetcode/tree/FlattenTree.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159213228/)]
 120. Triangle<br>
-[[Problem](https://leetcode.com/problems/triangle/description/)] [[My Answer](src/main/java/leetcode/TriangleMinPath.java)] 
+[[Problem](https://leetcode.com/problems/triangle/description/)] 
+[[My Answer](src/main/java/leetcode/TriangleMinPath.java)] 
 [[Submission](https://leetcode.com/submissions/detail/156729228/)]
 141. Linked List Cycle<br>
-[[Problem](https://leetcode.com/problems/linked-list-cycle/description/)] [[My Answer](src/main/java/leetcode/list/LinkedListCycle.java)] 
+[[Problem](https://leetcode.com/problems/linked-list-cycle/description/)] 
+[[My Answer](src/main/java/leetcode/list/LinkedListCycle.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159065345/)]
 169. Majority Element<br>
-[[Problem](https://leetcode.com/problems/majority-element/description/)] [[My Answer](src/main/java/leetcode/list/MajorityElement.java)] 
+[[Problem](https://leetcode.com/problems/majority-element/description/)] 
+[[My Answer](src/main/java/leetcode/list/MajorityElement.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159211732/)]
 187. Repeated DNA Sequence<br>
-[[Problem](https://leetcode.com/problems/repeated-dna-sequences/description/)] [[My Answer](src/main/java/leetcode/RepeatedDNA.java)] 
+[[Problem](https://leetcode.com/problems/repeated-dna-sequences/description/)] 
+[[My Answer](src/main/java/leetcode/RepeatedDNA.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159212182//)]
 279. Perfect Square<br>
-[[Problem](https://leetcode.com/problems/perfect-squares/description/)] [[My Answer](src/main/java/leetcode/PerfectSquare.java)] 
+[[Problem](https://leetcode.com/problems/perfect-squares/description/)] 
+[[My Answer](src/main/java/leetcode/PerfectSquare.java)] 
 [[Submission](https://leetcode.com/submissions/detail/156877950/)]
 290. Word Pattern<br>
-[[Problem](https://leetcode.com/problems/word-pattern/description/)] [[My Answer](src/main/java/leetcode/WordPattern.java)] 
+[[Problem](https://leetcode.com/problems/word-pattern/description/)] 
+[[My Answer](src/main/java/leetcode/WordPattern.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159062813/)]
 745. Reach a Number<br>
-[[Problem](https://leetcode.com/problems/reach-a-number/description/)] [[My Answer](src/main/java/leetcode/ReachNumber.java)] 
+[[Problem](https://leetcode.com/problems/reach-a-number/description/)] 
+[[My Answer](src/main/java/leetcode/ReachNumber.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159060358/)]
 859. Buddy String<br>
-[[Problem](https://leetcode.com/problems/buddy-strings/description/)] [[My Answer](src/main/java/leetcode/BuddyString.java)] 
+[[Problem](https://leetcode.com/problems/buddy-strings/description/)] 
+[[My Answer](src/main/java/leetcode/string/BuddyString.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160468546/)]
 
 #### Database
