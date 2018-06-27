@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import leetcode.helpers.ListNode;
+
 class LinkedListCycleTest {
     private static final LinkedListCycle tester = new LinkedListCycle();
 

@@ -1,5 +1,7 @@
 package leetcode;
 
+import leetcode.helpers.TreeNode;
+
 public class FlattenTree {
     private TreeNode previous = null;
 

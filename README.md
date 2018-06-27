@@ -69,6 +69,9 @@ I am passionate about programming and software engineering.
 18. Four Sum<br>
 [[Problem](https://leetcode.com/problems/4sum/description/)] [[My Answer](src/main/java/leetcode/FourSum.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160907868/)]
+19. Remove Nth Node From End of List<br>
+[[Problem](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)] [[My Answer](src/main/java/leetcode/RemoveFromEnd.java)] 
+[[Submission](https://leetcode.com/submissions/detail/160907868/)]
 20. Valid Parentheses<br>
 [[Problem](https://leetcode.com/problems/roman-to-integer/description/)] [[My Answer](src/main/java/leetcode/ValidParentheses.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159054217/)]

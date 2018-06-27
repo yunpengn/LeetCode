@@ -3,6 +3,8 @@ package leetcode;
 import java.util.LinkedList;
 import java.util.Queue;
 
+import leetcode.helpers.TreeNode;
+
 public class MaximumDepth {
     public int maxDepth(TreeNode root) {
         if (root == null) {
