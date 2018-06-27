@@ -45,6 +45,11 @@ public class FourSum {
                 int n = nums.length - 1;
                 // The algorithm is correct since the array has been sorted.
                 while (m < nums.length && m < n) {
+                    // Avoids duplicate results.
+                    if (m > j + 1 && nums[m] == nums[m - 1]) {
+                        m++;
+                        continue;
+                    }
                     num3 = nums[m];
                     num4 = nums[n];
                     sum = num1 + num2 + num3 + num4;

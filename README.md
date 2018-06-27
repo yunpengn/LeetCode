@@ -68,7 +68,7 @@ I am passionate about programming and software engineering.
 [[Submission](https://leetcode.com/submissions/detail/160748269/)]
 18. Four Sum<br>
 [[Problem](https://leetcode.com/problems/4sum/description/)] [[My Answer](src/main/java/leetcode/FourSum.java)] 
-[[Submission](https://leetcode.com/submissions/detail/160748269/)]
+[[Submission](https://leetcode.com/submissions/detail/160907868/)]
 20. Valid Parentheses<br>
 [[Problem](https://leetcode.com/problems/roman-to-integer/description/)] [[My Answer](src/main/java/leetcode/ValidParentheses.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159054217/)]
