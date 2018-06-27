@@ -6,9 +6,13 @@ public class RemoveFromEnd {
     // Pre-condition: assume n is valid, which means the length of the
     // linked list is at least n.
     public ListNode removeNthFromEnd(ListNode head, int n) {
+        // To maintain reference to the head node.
+        ListNode start = new ListNode(-1);
+        start.next = head;
+
         // Defines two pointers.
-        ListNode front = head;
-        ListNode back = head;
+        ListNode front = start;
+        ListNode back = start;
 
         // Moves the front pointer for n steps first.
         for (int i = 0; i < n; i++) {
@@ -31,6 +35,6 @@ public class RemoveFromEnd {
         }
         back.next = temp;
 
-        return head;
+        return start.next;
     }
 }
