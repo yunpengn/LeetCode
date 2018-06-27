@@ -110,6 +110,10 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/swap-nodes-in-pairs/description/)] 
 [[My Answer](src/main/java/leetcode/list/SwapPairs.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160952855/)]
+26. Remove Duplicates from Sorted Array<br>
+[[Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)] 
+[[My Answer](src/main/java/leetcode/list/RemoveDuplicates.java)] 
+[[Submission](https://leetcode.com/submissions/detail/160955157/)]
 50. My Power<br>
 [[Problem](https://leetcode.com/problems/powx-n/description/)] 
 [[My Answer](src/main/java/leetcode/MyPower.java)] 
