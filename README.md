@@ -146,52 +146,68 @@ I am passionate about programming and software engineering.
 #### Database
 
 175. Combine two tables<br>
-[[Problem](https://leetcode.com/problems/combine-two-tables/description/)] [[My Answer](src/main/java/sql/CombineTable.sql)] 
+[[Problem](https://leetcode.com/problems/combine-two-tables/description/)] 
+[[My Answer](src/main/java/sql/CombineTable.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139218896/)]
 176. Second Highest Salary<br>
-[[Problem](https://leetcode.com/problems/second-highest-salary/description/)] [[My Answer](src/main/java/sql/SecondHighestSalary.sql)] 
+[[Problem](https://leetcode.com/problems/second-highest-salary/description/)] 
+[[My Answer](src/main/java/sql/SecondHighestSalary.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139219541/)]
 177. Nth Highest Salary<br>
-[[Problem](https://leetcode.com/problems/nth-highest-salary/description/)] [[My Answer](src/main/java/leetcode/sql/NthHighestSalary.sql)] 
+[[Problem](https://leetcode.com/problems/nth-highest-salary/description/)] 
+[[My Answer](src/main/java/sql/NthHighestSalary.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139220171/)]
 178. Rank Scores<br>
-[[Problem](https://leetcode.com/problems/rank-scores/description/)] [[My Answer](src/main/java/sql/RankScores.sql)] 
+[[Problem](https://leetcode.com/problems/rank-scores/description/)] 
+[[My Answer](src/main/java/sql/RankScores.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139305415/)]
 179. Consecutive Numbers<br>
-[[Problem](https://leetcode.com/problems/consecutive-numbers/description/)] [[My Answer](src/main/java/sql/ConsecutiveThreeTimes.sql)] 
+[[Problem](https://leetcode.com/problems/consecutive-numbers/description/)] 
+[[My Answer](src/main/java/sql/ConsecutiveThreeTimes.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139315209/)]
 180. Employees Earning More Than Their Managers<br>
-[[Problem](https://leetcode.com/problems/employees-earning-more-than-their-managers/description/)] [[My Answer](src/main/java/sql/EarnEmployee.sql)] 
+[[Problem](https://leetcode.com/problems/employees-earning-more-than-their-managers/description/)] 
+[[My Answer](src/main/java/sql/EarnEmployee.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139316597/)]
 181. Duplicate email<br>
-[[Problem](https://leetcode.com/problems/duplicate-emails/description/)] [[My Answer](src/main/java/sql/DuplicateEmail.sql)] 
+[[Problem](https://leetcode.com/problems/duplicate-emails/description/)] 
+[[My Answer](src/main/java/sql/DuplicateEmail.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139317202/)]
 182. Customers Who Never Order<br>
-[[Problem](https://leetcode.com/problems/customers-who-never-order/description/)] [[My Answer](src/main/java/sql/CustomerNeverOrder.sql)] 
+[[Problem](https://leetcode.com/problems/customers-who-never-order/description/)] 
+[[My Answer](src/main/java/sql/CustomerNeverOrder.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139318348/)]
 183. Department Highest Salary<br>
-[[Problem](https://leetcode.com/problems/department-highest-salary/description/)] [[My Answer](src/main/java/sql/DepartmentHighest.sql)] 
+[[Problem](https://leetcode.com/problems/department-highest-salary/description/)] 
+[[My Answer](src/main/java/sql/DepartmentHighest.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139325195/)]
 184. Department Top Three Salary<br>
-[[Problem](https://leetcode.com/problems/department-top-three-salaries/description/)] [[My Answer](src/main/java/sql/DepartmentTopThree.sql)] 
+[[Problem](https://leetcode.com/problems/department-top-three-salaries/description/)] 
+[[My Answer](src/main/java/sql/DepartmentTopThree.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139326809/)]
 196. Delete Duplicate Emails<br>
-[[Problem](https://leetcode.com/problems/department-top-three-salaries/description/)] [[My Answer](src/main/java/sql/DeleteDuplicateEmail.sql)] 
+[[Problem](https://leetcode.com/problems/department-top-three-salaries/description/)] 
+[[My Answer](src/main/java/sql/DeleteDuplicateEmail.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139327803/)]
 197. Rising Temperature<br>
-[[Problem](https://leetcode.com/problems/rising-temperature/description/)] [[My Answer](src/main/java/sql/RisingTemperature.sql)] 
+[[Problem](https://leetcode.com/problems/rising-temperature/description/)] 
+[[My Answer](src/main/java/sql/RisingTemperature.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139329452/)]
 262. Trips and Users<br>
-[[Problem](https://leetcode.com/problems/trips-and-users/description/)] [[My Answer](src/main/java/sql/TripsUsers.sql)] 
+[[Problem](https://leetcode.com/problems/trips-and-users/description/)] 
+[[My Answer](src/main/java/sql/TripsUsers.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139330730/)]
 595. Big Countries<br>
-[[Problem](https://leetcode.com/problems/big-countries/description/)] [[My Answer](src/main/java/sql/BigCountries.sql)] 
+[[Problem](https://leetcode.com/problems/big-countries/description/)] 
+[[My Answer](src/main/java/sql/BigCountries.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/139331256/)]
 596. More than 5 students<br>
-[[Problem](https://leetcode.com/problems/classes-more-than-5-students/description/)] [[My Answer](src/main/java/sql/MoreThanFiveStudents.sql)] 
+[[Problem](https://leetcode.com/problems/classes-more-than-5-students/description/)] 
+[[My Answer](src/main/java/sql/MoreThanFiveStudents.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/144565425/)]
 601. Human Traffic of Stadium<br>
-[[Problem](https://leetcode.com/problems/human-traffic-of-stadium/description/)] [[My Answer](src/main/java/sql/HumanTraffic.sql)] 
+[[Problem](https://leetcode.com/problems/human-traffic-of-stadium/description/)] 
+[[My Answer](src/main/java/sql/HumanTraffic.sql)] 
 [[Submission](https://leetcode.com/submissions/detail/159048409/)]
 
 ## Licence
