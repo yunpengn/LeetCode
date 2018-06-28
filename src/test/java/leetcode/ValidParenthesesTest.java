@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import leetcode.string.ValidParentheses;
+
 class ValidParenthesesTest {
     private static final ValidParentheses tester = new ValidParentheses();
 

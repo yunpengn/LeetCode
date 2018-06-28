@@ -92,7 +92,7 @@ I am passionate about programming and software engineering.
 [[Submission](https://leetcode.com/submissions/detail/160922740/)]
 20. Valid Parentheses<br>
 [[Problem](https://leetcode.com/problems/roman-to-integer/description/)] 
-[[My Answer](src/main/java/leetcode/ValidParentheses.java)] 
+[[My Answer](src/main/java/leetcode/string/ValidParentheses.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159054217/)]
 21. Merge Two Sorted Lists<br>
 [[Problem](https://leetcode.com/problems/merge-two-sorted-lists/description/)] 
@@ -124,7 +124,7 @@ I am passionate about programming and software engineering.
 [[Submission](https://leetcode.com/submissions/detail/161066433/)]
 50. My Power<br>
 [[Problem](https://leetcode.com/problems/powx-n/description/)] 
-[[My Answer](src/main/java/leetcode/MyPower.java)] 
+[[My Answer](src/main/java/leetcode/math/MyPower.java)] 
 [[Submission](https://leetcode.com/submissions/detail/153032047/)]
 104. Maximum Depth of Binary Tree<br>
 [[Problem](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)] 
@@ -160,7 +160,7 @@ I am passionate about programming and software engineering.
 [[Submission](https://leetcode.com/submissions/detail/159062813/)]
 745. Reach a Number<br>
 [[Problem](https://leetcode.com/problems/reach-a-number/description/)] 
-[[My Answer](src/main/java/leetcode/ReachNumber.java)] 
+[[My Answer](src/main/java/leetcode/math/ReachNumber.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159060358/)]
 859. Buddy String<br>
 [[Problem](https://leetcode.com/problems/buddy-strings/description/)] 

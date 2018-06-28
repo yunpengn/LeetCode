@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.math;
 
 public class MyPower {
     public double myPow(double x, int n) {

@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.math;
 
 public class ReachNumber {
     public int reachNumber(int target) {

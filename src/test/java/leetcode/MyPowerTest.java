@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Random;
 
+import leetcode.math.MyPower;
+
 class MyPowerTest {
     // An instance of BinarySearch to be tested.
     private MyPower tester = new MyPower();

@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import leetcode.math.ReachNumber;
+
 class ReachNumberTest {
     private static final ReachNumber tester = new ReachNumber();
 
