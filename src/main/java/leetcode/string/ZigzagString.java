@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.string;
 
 public class ZigzagString {
     public String convert(String s, int numRows) {

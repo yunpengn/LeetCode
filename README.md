@@ -20,7 +20,7 @@ I am passionate about programming and software engineering.
 
 1. Two sum<br>
 [[Problem](https://leetcode.com/problems/two-sum/description/)] 
-[[My Answer](src/main/java/leetcode/TwoSum.java)] 
+[[My Answer](src/main/java/leetcode/sum/TwoSum.java)] 
 [[Submission](https://leetcode.com/submissions/detail/136909312/)]
 2. Add two numbers<br>
 [[Problem](https://leetcode.com/problems/add-two-numbers/description/)] 
@@ -40,7 +40,7 @@ I am passionate about programming and software engineering.
 [[Submission](https://leetcode.com/submissions/detail/139217013/)]
 6. Zigzag conversion<br>
 [[Problem](https://leetcode.com/problems/zigzag-conversion/description/)] 
-[[My Answer](src/main/java/leetcode/ZigzagString.java)] 
+[[My Answer](src/main/java/leetcode/string/ZigzagString.java)] 
 [[Submission](https://leetcode.com/submissions/detail/139218571/)]
 7. Reverse integer<br>
 [[Problem](https://leetcode.com/problems/reverse-integer/description/)] 
@@ -72,11 +72,11 @@ I am passionate about programming and software engineering.
 [[Submission](https://leetcode.com/submissions/detail/160474836/)]
 15. Three Sum<br>
 [[Problem](https://leetcode.com/problems/3sum/description/)] 
-[[My Answer](src/main/java/leetcode/ThreeSum.java)] 
+[[My Answer](src/main/java/leetcode/sum/ThreeSum.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160154891/)]
 16. Three Sum Closest<br>
 [[Problem](https://leetcode.com/problems/3sum-closest/description/)] 
-[[My Answer](src/main/java/leetcode/ThreeSumClosest.java)] 
+[[My Answer](src/main/java/leetcode/sum/ThreeSumClosest.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160743725/)]
 17. Letter Combinations of a Phone Number<br>
 [[Problem](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)] 
@@ -84,7 +84,7 @@ I am passionate about programming and software engineering.
 [[Submission](https://leetcode.com/submissions/detail/160748269/)]
 18. Four Sum<br>
 [[Problem](https://leetcode.com/problems/4sum/description/)] 
-[[My Answer](src/main/java/leetcode/FourSum.java)] 
+[[My Answer](src/main/java/leetcode/sum/FourSum.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160907868/)]
 19. Remove Nth Node From End of List<br>
 [[Problem](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)] 

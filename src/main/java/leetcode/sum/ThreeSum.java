@@ -1,21 +1,23 @@
-package leetcode;
+package leetcode.sum;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
-public class ThreeSumClosest {
-    public int threeSumClosest(int[] nums, int target) {
-        // Exits prematurely if there are less than three elements.
-        if (nums.length < 3) {
-            return -1;
-        }
-
-        // The pre-defined result.
-        int result = nums[0] + nums[1] + nums[2];
+public class ThreeSum {
+    public List<List<Integer>> threeSum(int[] nums) {
+        // Uses this to store the result.
+        List<List<Integer>> result = new ArrayList<>();
         // Defines four temporary variables.
         int num1;
         int num2;
         int num3;
         int sum;
+
+        // Exits prematurely if there are less than three elements.
+        if (nums.length < 3) {
+            return result;
+        }
 
         // Sorting will not affect the overall time complexity since the lower bound should
         // at least be about O(n^2).
@@ -24,6 +26,10 @@ public class ThreeSumClosest {
         // Iterates through the array.
         for (int i = 0; i < nums.length - 2; i++) {
             num1 = nums[i];
+            // Avoids duplicate results.
+            if (i > 0 && num1 == nums[i - 1]) {
+                continue;
+            }
 
             // Uses a two-pointer linear sweep algorithm, which is inspired by interval scheduling
             // (see MIT6.046J Spring 2015 Lecture 1).
@@ -35,18 +41,16 @@ public class ThreeSumClosest {
                 num3 = nums[k];
                 sum = num1 + num2 + num3;
 
-                if (sum == target) {
-                    return target;
-                } else {
-                    if (Math.abs(sum - target) < Math.abs(result - target)) {
-                        result = sum;
-                    }
-
-                    if (sum < target) {
+                if (sum == 0) {
+                    result.add(Arrays.asList(num1, num2, num3));
+                    do {
                         j++;
-                    } else {
                         k--;
-                    }
+                    } while (j < nums.length && j < k && nums[j] == num2 && nums[k] == num3);
+                } else if (sum < 0) {
+                    j++;
+                } else {
+                    k--;
                 }
             }
         }
