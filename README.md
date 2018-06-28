@@ -118,6 +118,10 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/remove-element/description/)] 
 [[My Answer](src/main/java/leetcode/list/RemoveElement.java)] 
 [[Submission](https://leetcode.com/submissions/detail/161058918/)]
+28. Implement strStr()<br>
+[[Problem](https://leetcode.com/problems/implement-strstr/description/)] 
+[[My Answer](src/main/java/leetcode/string/StrStr.java)] 
+[[Submission](https://leetcode.com/submissions/detail/161058918/)]
 50. My Power<br>
 [[Problem](https://leetcode.com/problems/powx-n/description/)] 
 [[My Answer](src/main/java/leetcode/MyPower.java)] 
