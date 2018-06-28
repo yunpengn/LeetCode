@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.number;
 
 public class IntegerToRoman {
     public String intToRoman(int num) {

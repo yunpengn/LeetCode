@@ -44,11 +44,11 @@ I am passionate about programming and software engineering.
 [[Submission](https://leetcode.com/submissions/detail/139218571/)]
 7. Reverse integer<br>
 [[Problem](https://leetcode.com/problems/reverse-integer/description/)] 
-[[My Answer](src/main/java/leetcode/ReverseInteger.java)] 
+[[My Answer](src/main/java/leetcode/number/ReverseInteger.java)] 
 [[Submission](https://leetcode.com/submissions/detail/139218571/)]
 8. String to Integer (ATOI)<br>
 [[Problem](https://leetcode.com/problems/string-to-integer-atoi/description/)] 
-[[My Answer](src/main/java/leetcode/StringToInteger.java)] 
+[[My Answer](src/main/java/leetcode/string/StringToInteger.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160471068/)]
 9. Palindrome number<br>
 [[Problem](https://leetcode.com/problems/palindrome-number/description/)] 
@@ -60,11 +60,11 @@ I am passionate about programming and software engineering.
 [[Submission](https://leetcode.com/submissions/detail/145242545/)]
 12. Integer to Roman<br>
 [[Problem](https://leetcode.com/problems/integer-to-roman/description/)] 
-[[My Answer](src/main/java/leetcode/IntegerToRoman.java)] 
+[[My Answer](src/main/java/leetcode/number/IntegerToRoman.java)] 
 [[Submission](https://leetcode.com/submissions/detail/145242545/)]
-13. Integer to Roman<br>
+13. Roman to Integer<br>
 [[Problem](https://leetcode.com/problems/roman-to-integer/description/)] 
-[[My Answer](src/main/java/leetcode/RomanToInteger.java)] 
+[[My Answer](src/main/java/leetcode/string/RomanToInteger.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160472946/)]
 14. Longest Common Prefix<br>
 [[Problem](https://leetcode.com/problems/longest-common-prefix/description/)] 
@@ -152,7 +152,7 @@ I am passionate about programming and software engineering.
 [[Submission](https://leetcode.com/submissions/detail/156877950/)]
 290. Word Pattern<br>
 [[Problem](https://leetcode.com/problems/word-pattern/description/)] 
-[[My Answer](src/main/java/leetcode/WordPattern.java)] 
+[[My Answer](src/main/java/leetcode/string/WordPattern.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159062813/)]
 745. Reach a Number<br>
 [[Problem](https://leetcode.com/problems/reach-a-number/description/)] 
