@@ -13,6 +13,6 @@ class RemoveElementTest {
         int[] expected = new int[] { 2, 2, 3, 3 };
 
         tester.removeElement(input, 3);
-        assertEquals(expected, input, "The result is wrong.");
+        assertArrayEquals(expected, input, "The result is wrong.");
     }
 }
