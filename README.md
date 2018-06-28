@@ -24,11 +24,11 @@ I am passionate about programming and software engineering.
 [[Submission](https://leetcode.com/submissions/detail/136909312/)]
 2. Add two numbers<br>
 [[Problem](https://leetcode.com/problems/add-two-numbers/description/)] 
-[[My Answer](src/main/java/leetcode/AddTwoNumbers.java)] 
+[[My Answer](src/main/java/leetcode/list/AddTwoNumbers.java)] 
 [[Submission](https://leetcode.com/submissions/detail/136911509/)]
 3. Longest substring without repeating characters<br>
 [[Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)] 
-[[My Answer](src/main/java/leetcode/LongestNonRepeatSubstring.java)] 
+[[My Answer](src/main/java/leetcode/string/LongestNonRepeatSubstring.java)] 
 [[Submission](https://leetcode.com/submissions/detail/136972086/)]
 4. Medians of two sorted arrays<br>
 [[Problem](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)] 
