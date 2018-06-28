@@ -10,7 +10,7 @@ public class RemoveElement {
         int head = 0;
         int tail = nums.length - 1;
 
-        while (head < nums.length && head < tail) {
+        while (head < nums.length && head <= tail) {
             if (nums[head] != val) {
                 head++;
             } else if (nums[tail] == val) {
