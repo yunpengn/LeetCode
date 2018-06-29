@@ -125,7 +125,7 @@ I am passionate about programming and software engineering.
 29. Divide Two Integers<br>
 [[Problem](https://leetcode.com/problems/divide-two-integers/description/)] 
 [[My Answer](src/main/java/leetcode/math/Divide.java)] 
-[[Submission](https://leetcode.com/submissions/detail/161066433/)]
+[[Submission](https://leetcode.com/submissions/detail/161259238/)]
 35. Search Insert Position<br>
 [[Problem](https://leetcode.com/problems/search-insert-position/description/)] 
 [[My Answer](src/main/java/leetcode/list/SearchInsert.java)] 
