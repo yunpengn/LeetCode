@@ -22,7 +22,7 @@ public class SearchRotated {
         while (start < end) {
             int mid = (start + end) / 2;
 
-            if (nums[mid] > nums[0]) {
+            if (nums[mid] > nums[end]) {
                 start = mid + 1;
             } else {
                 end = mid;
@@ -30,25 +30,25 @@ public class SearchRotated {
         }
 
         rotation = start;
-        start = unRotate(0);
-        end = unRotate(nums.length - 1);
+        start = 0;
+        end = nums.length - 1;
 
         // Then searches for the actual target.
         while (start < end) {
-            int mid = unRotate((start + end) / 2);
+            int mid = (start + end) / 2;
 
-            if (nums[mid] < target) {
+            if (nums[rotate(mid)] < target) {
                 start = mid + 1;
             } else {
                 end = mid;
             }
         }
 
-        return nums[start] == target ? start : -1;
+        return nums[rotate(start)] == target ? rotate(start) : -1;
     }
 
-    // Reverses the rotation effect on the index.
-    private int unRotate(int index) {
+    // Applies the rotation effect on the index.
+    private int rotate(int index) {
         return (index + rotation) % length;
     }
 }

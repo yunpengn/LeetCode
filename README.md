@@ -129,7 +129,7 @@ I am passionate about programming and software engineering.
 33. Search in Rotated Sorted Array<br>
 [[Problem](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)] 
 [[My Answer](src/main/java/leetcode/list/SearchRotated.java)] 
-[[Submission](https://leetcode.com/submissions/detail/162032654/)]
+[[Submission](https://leetcode.com/submissions/detail/162041193/)]
 34. Search for a Range<br>
 [[Problem](https://leetcode.com/problems/search-for-a-range/description/)] 
 [[My Answer](src/main/java/leetcode/list/SearchRange.java)] 
