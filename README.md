@@ -126,6 +126,10 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/divide-two-integers/description/)] 
 [[My Answer](src/main/java/leetcode/math/Divide.java)] 
 [[Submission](https://leetcode.com/submissions/detail/161259238/)]
+34. Search for a Range<br>
+[[Problem](https://leetcode.com/problems/search-for-a-range/description/)] 
+[[My Answer](src/main/java/leetcode/list/SearchRange.java)] 
+[[Submission](https://leetcode.com/submissions/detail/162032654/)]
 35. Search Insert Position<br>
 [[Problem](https://leetcode.com/problems/search-insert-position/description/)] 
 [[My Answer](src/main/java/leetcode/list/SearchInsert.java)] 
