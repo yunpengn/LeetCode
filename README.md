@@ -138,6 +138,10 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/search-insert-position/description/)] 
 [[My Answer](src/main/java/leetcode/list/SearchInsert.java)] 
 [[Submission](https://leetcode.com/submissions/detail/161073197/)]
+36. Valid Sudoku<br>
+[[Problem](https://leetcode.com/problems/valid-sudoku/description/)] 
+[[My Answer](src/main/java/leetcode/list/ValidSudoku.java)] 
+[[Submission](https://leetcode.com/submissions/detail/162164183/)]
 50. My Power<br>
 [[Problem](https://leetcode.com/problems/powx-n/description/)] 
 [[My Answer](src/main/java/leetcode/math/MyPower.java)] 
