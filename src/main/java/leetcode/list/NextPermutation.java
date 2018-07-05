@@ -7,25 +7,36 @@ public class NextPermutation {
             return;
         }
 
-        if (isDescending(nums)) {
+        int descendFrom = isDescendingFrom(nums);
+        if (descendFrom == -1) {
+            // Special case: when the whole array is reversely sorted (the highest value),
+            // we have to reverse it.
             reverse(nums);
         } else {
-            // Swaps the last two elements.
-            int temp = nums[nums.length - 2];
-            nums[nums.length - 2] = nums[nums.length - 1];
-            nums[nums.length - 1] = temp;
+            insertFrom(nums, descendFrom);
         }
     }
 
-    // Checks whether the array is descending (not necessarily strictly).
-    private boolean isDescending(int[] nums) {
-        for (int i = 0; i < nums.length - 1; i++) {
-            if (nums[i + 1] > nums[i]) {
-                return false;
+    // From which to the end is the array descending.
+    private int isDescendingFrom(int[] nums) {
+        for (int i = nums.length - 1; i > 0; i--) {
+            if (nums[i] > nums[i - 1]) {
+                return i - 1;
             }
         }
 
-        return true;
+        return -1;
+    }
+
+    // Inserts the last element at a certain index and push the else elements.
+    private void insertFrom(int[] nums, int start) {
+        int last = nums[nums.length - 1];
+
+        for (int i = nums.length - 1; i > start; i--) {
+            nums[i] = nums[i - 1];
+        }
+
+        nums[start] = last;
     }
 
     // Reverses the whole array.
@@ -35,8 +46,8 @@ public class NextPermutation {
 
         while (front < back) {
             int temp = nums[front];
-            nums[back] = nums[front];
-            nums[front] = temp;
+            nums[front] = nums[back];
+            nums[back] = temp;
 
             front++;
             back--;
