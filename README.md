@@ -126,6 +126,10 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/divide-two-integers/description/)] 
 [[My Answer](src/main/java/leetcode/math/Divide.java)] 
 [[Submission](https://leetcode.com/submissions/detail/161259238/)]
+31. Next Permutation<br>
+[[Problem](https://leetcode.com/problems/next-permutation/description/)] 
+[[My Answer](src/main/java/leetcode/list/NextPermutation.java)] 
+[[Submission](https://leetcode.com/submissions/detail/161259238/)]
 33. Search in Rotated Sorted Array<br>
 [[Problem](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)] 
 [[My Answer](src/main/java/leetcode/list/SearchRotated.java)] 
