@@ -20,4 +20,10 @@ class CombinationSumTest {
         output = Arrays.asList(Arrays.asList(2, 2, 3), Collections.singletonList(7));
         assertEquals(tester.combinationSum(input, 7).size(), output.size());
     }
+
+    @Test
+    void simpleTest2() {
+        int[] input = new int[]{ 10, 1, 2, 7, 6, 1, 5 };
+        assertEquals(tester.combinationSum(input, 8).size(), 4);
+    }
 }

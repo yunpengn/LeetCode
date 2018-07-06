@@ -29,9 +29,36 @@ public class CombinationSum {
         }
 
         // Not uses the current element.
-        for (List<Integer> group: combinationSum(candidates, startFrom + 1, target)) {
+        result.addAll(combinationSum(candidates, startFrom + 1, target));
+
+        return result;
+    }
+
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        return combinationSum2(candidates, 0, target);
+    }
+
+    private List<List<Integer>> combinationSum2(int[] candidates, int startFrom, int target) {
+        List<List<Integer>> result = new LinkedList<>();
+
+        // Returns for invalid cases.
+        if (startFrom >= candidates.length || target < 0) {
+            return result;
+        } else if (target == 0) {
+            result.add(new LinkedList<>());
+            return result;
+        }
+
+        int current = candidates[startFrom];
+
+        // Uses the current element.
+        for (List<Integer> group: combinationSum2(candidates, startFrom + 1, target - current)) {
+            group.add(current);
             result.add(group);
         }
+
+        // Not uses the current element.
+        result.addAll(combinationSum2(candidates, startFrom + 1, target));
 
         return result;
     }
