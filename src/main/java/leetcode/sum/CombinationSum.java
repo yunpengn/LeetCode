@@ -30,7 +30,6 @@ public class CombinationSum {
 
         // Not uses the current element.
         for (List<Integer> group: combinationSum(candidates, startFrom + 1, target)) {
-            group.add(current);
             result.add(group);
         }
 
