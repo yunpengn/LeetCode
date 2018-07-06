@@ -7,7 +7,10 @@ public class NextPermutation {
             return;
         }
 
+        // From which element the array starts to descend. Notice that the part after this
+        // index is reversely sorted.
         int descendFrom = isDescendingFrom(nums);
+
         if (descendFrom == -1) {
             // Special case: when the whole array is reversely sorted (the highest value),
             // we have to reverseFrom it.
