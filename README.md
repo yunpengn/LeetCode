@@ -149,7 +149,7 @@ I am passionate about programming and software engineering.
 39. Combination Sum<br>
 [[Problem](https://leetcode.com/problems/combination-sum/description/)] 
 [[My Answer](src/main/java/leetcode/sum/CombinationSum.java)] 
-[[Submission](https://leetcode.com/submissions/detail/162164183/)]
+[[Submission](https://leetcode.com/submissions/detail/162349212/)]
 50. My Power<br>
 [[Problem](https://leetcode.com/problems/powx-n/description/)] 
 [[My Answer](src/main/java/leetcode/math/MyPower.java)] 
