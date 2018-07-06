@@ -10,8 +10,8 @@ public class NextPermutation {
         int descendFrom = isDescendingFrom(nums);
         if (descendFrom == -1) {
             // Special case: when the whole array is reversely sorted (the highest value),
-            // we have to reverse it.
-            reverse(nums);
+            // we have to reverseFrom it.
+            reverseFrom(nums, 0);
         } else {
             insertFrom(nums, descendFrom);
         }
@@ -30,18 +30,22 @@ public class NextPermutation {
 
     // Inserts the last element at a certain index and push the else elements.
     private void insertFrom(int[] nums, int start) {
-        int last = nums[nums.length - 1];
-
-        for (int i = nums.length - 1; i > start; i--) {
-            nums[i] = nums[i - 1];
+        // Avoids the possible duplicates and makes the "smallest"
+        int current = nums.length - 1;
+        while (nums[current] <= nums[start]) {
+            current--;
         }
 
-        nums[start] = last;
+        // Swaps these two elements to get the "next" petmutation.
+        swap(nums, start, current);
+
+        // Makes sure it is the "smallest" next.
+        reverseFrom(nums, start + 1);
     }
 
-    // Reverses the whole array.
-    private void reverse(int[] nums) {
-        int front = 0;
+    // Reverses a part of the array.
+    private void reverseFrom(int[] nums, int start) {
+        int front = start;
         int back = nums.length - 1;
 
         while (front < back) {
@@ -52,5 +56,12 @@ public class NextPermutation {
             front++;
             back--;
         }
+    }
+
+    // Swaps two elements in the array.
+    private void swap(int[] nums, int first, int second) {
+        int temp = nums[first];
+        nums[first] = nums[second];
+        nums[second] = temp;
     }
 }
