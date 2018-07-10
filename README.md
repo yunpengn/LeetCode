@@ -130,6 +130,10 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/next-permutation/description/)] 
 [[My Answer](src/main/java/leetcode/list/NextPermutation.java)] 
 [[Submission](https://leetcode.com/submissions/detail/162335199/)]
+32. Longest Valid Parentheses<br>
+[[Problem](https://leetcode.com/problems/longest-valid-parentheses/)] 
+[[My Answer](src/main/java/leetcode/string/LongestValidParentheses.java)] 
+[[Submission](https://leetcode.com/submissions/detail/163104196/)]
 33. Search in Rotated Sorted Array<br>
 [[Problem](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)] 
 [[My Answer](src/main/java/leetcode/list/SearchRotated.java)] 
