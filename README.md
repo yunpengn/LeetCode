@@ -154,6 +154,10 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/permutations/description/)] 
 [[My Answer](src/main/java/leetcode/list/Permutation.java)] 
 [[Submission](https://leetcode.com/submissions/detail/162927075/)]
+48. Rotate Image<br>
+[[Problem](https://leetcode.com/problems/rotate-image/description/)] 
+[[My Answer](src/main/java/leetcode/matrix/RotateImage.java)] 
+[[Submission](https://leetcode.com/submissions/detail/163036266/)]
 50. My Power<br>
 [[Problem](https://leetcode.com/problems/powx-n/description/)] 
 [[My Answer](src/main/java/leetcode/math/MyPower.java)] 
