@@ -150,6 +150,10 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/combination-sum/description/)] 
 [[My Answer](src/main/java/leetcode/sum/CombinationSum.java)] 
 [[Submission](https://leetcode.com/submissions/detail/162349212/)]
+43. Multiply Strings<br>
+[[Problem](https://leetcode.com/problems/multiply-strings/description/)] 
+[[My Answer](src/main/java/leetcode/string/MultipleStrings.java)] 
+[[Submission](https://leetcode.com/submissions/detail/163066312/)]
 46. Permutations<br>
 [[Problem](https://leetcode.com/problems/permutations/description/)] 
 [[My Answer](src/main/java/leetcode/list/Permutation.java)] 
