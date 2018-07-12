@@ -1,5 +1,6 @@
 package leetcode.sum;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -34,7 +35,9 @@ public class CombinationSum {
         return result;
     }
 
+    // Notice: there may be duplicates in the input.
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        Arrays.sort(candidates);
         return combinationSum2(candidates, 0, target);
     }
 

@@ -152,6 +152,10 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/valid-sudoku/description/)] 
 [[My Answer](src/main/java/leetcode/list/ValidSudoku.java)] 
 [[Submission](https://leetcode.com/submissions/detail/162164183/)]
+38. Count and Say<br>
+[[Problem](https://leetcode.com/problems/count-and-say/description/)] 
+[[My Answer](src/main/java/leetcode/CountAndSay.java)] 
+[[Submission](https://leetcode.com/submissions/detail/163374732/)]
 39. Combination Sum<br>
 [[Problem](https://leetcode.com/problems/combination-sum/description/)] 
 [[My Answer](src/main/java/leetcode/sum/CombinationSum.java)] 
