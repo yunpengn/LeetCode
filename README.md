@@ -192,6 +192,10 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/maximum-subarray/description/)] 
 [[My Answer](src/main/java/leetcode/list/MaxSubArray.java)] 
 [[Submission](https://leetcode.com/submissions/detail/163380966/)]
+58. Length of Last Word<br>
+[[Problem](https://leetcode.com/problems/length-of-last-word/description/)] 
+[[My Answer](src/main/java/leetcode/string/LengthLastWord.java)] 
+[[Submission](https://leetcode.com/submissions/detail/163413222/)]
 104. Maximum Depth of Binary Tree<br>
 [[Problem](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)] 
 [[My Answer](src/main/java/leetcode/tree/MaximumDepth.java)] 
