@@ -184,6 +184,10 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/powx-n/description/)] 
 [[My Answer](src/main/java/leetcode/math/MyPower.java)] 
 [[Submission](https://leetcode.com/submissions/detail/153032047/)]
+53. Maximum Sub-array<br>
+[[Problem](https://leetcode.com/problems/maximum-subarray/description/)] 
+[[My Answer](src/main/java/leetcode/list/MaxSubArray.java)] 
+[[Submission](https://leetcode.com/submissions/detail/163380966/)]
 104. Maximum Depth of Binary Tree<br>
 [[Problem](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)] 
 [[My Answer](src/main/java/leetcode/tree/MaximumDepth.java)] 

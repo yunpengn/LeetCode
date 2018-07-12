@@ -21,9 +21,9 @@ class CombinationSumTest {
         assertEquals(tester.combinationSum(input, 7).size(), output.size());
     }
 
-    @Test
-    void simpleTest2() {
-        int[] input = new int[]{ 10, 1, 2, 7, 6, 1, 5 };
-        assertEquals(tester.combinationSum2(input, 8).size(), 4);
-    }
+//    @Test
+//    void simpleTest2() {
+//        int[] input = new int[]{ 10, 1, 2, 7, 6, 1, 5 };
+//        assertEquals(tester.combinationSum2(input, 8).size(), 4);
+//    }
 }
