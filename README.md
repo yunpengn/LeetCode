@@ -56,6 +56,10 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/palindrome-number/description/)] 
 [[My Answer](src/main/java/leetcode/PalindromeNumber.java)] 
 [[Submission](https://leetcode.com/submissions/detail/144564924/)]
+10. Regular Expression Matching<br>
+[[Problem](https://leetcode.com/problems/regular-expression-matching/description/)] 
+[[My Answer](src/main/java/leetcode/string/Regex.java)] 
+[[Submission](https://leetcode.com/submissions/detail/144564924/)]
 11. Container with Most Water<br>
 [[Problem](https://leetcode.com/problems/container-with-most-water/description/)] 
 [[My Answer](src/main/java/leetcode/WaterContainer.java)] 
