@@ -9,6 +9,10 @@ repositories {
     mavenCentral()
 }
 
+wrapper {
+    gradleVersion = '4.8.1'
+}
+
 dependencies {
     testImplementation(
             'org.junit.jupiter:junit-jupiter-api:5.2.0'
@@ -16,10 +20,6 @@ dependencies {
     testRuntimeOnly(
             'org.junit.jupiter:junit-jupiter-engine:5.2.0'
     )
-}
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '4.8.1'
 }
 
 test {
