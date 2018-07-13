@@ -13,35 +13,53 @@ public class Regex {
      * @return true if matched; false otherwise.
      */
     public boolean isMatch(String s, String p) {
-        // The current index regarding the input string.
-        int indexS = 0;
-        // The current index regarding the pattern.
-        int indexP = 0;
+        // Handles special cases first.
+        if (s == null || p == null) {
+            return false;
+        } else if (s.length() == 0 && p.length() == 0) {
+            return true;
+        } else if (s.length() != 0 && p.length() == 0) {
+            return false;
+        } else if (p.charAt(0) == MULTIPLE) {
+            // Invalid pattern.
+            return false;
+        }
 
-        while (indexP < p.length() && indexS < s.length()) {
-            if (p.charAt(indexP) == WILDCARD) {
-                indexS++;
-                indexP++;
-            } else if (p.charAt(indexP) == MULTIPLE) {
-                if (indexP == 0) {
-                    return false;
-                } else if (p.charAt(indexP - 1) == s.charAt(indexS) || p.charAt(indexP - 1) == WILDCARD) {
-                    indexS++;
-                } else {
-                    indexP++;
-                }
-            } else if (p.charAt(indexP) == s.charAt(indexS)) {
-                indexS++;
-                indexP++;
-            } else {
-                return false;
+        /*
+         * Uses a 2D array to achieve dynamic programming. This 2D array can be thought
+         * of as, until a certain point, whether the string matches the pattern or not.
+         *
+         * We use length() + 1 so that edge cases are easier to handle.
+         */
+        boolean[][] result = new boolean[s.length() + 1][p.length() + 1];
+        // "" (empty pattern) will always match "" (empty string).
+        result[0][0] = true;
+
+        // Fills in the those prefixed with one or more MULTIPLE "*" patterns first.
+        for (int i = 1; i < p.length(); i++) {
+            if (p.charAt(i) == MULTIPLE && result[0][i - 1]) {
+                result[0][i + 1] = true;
             }
         }
 
-        if (indexP < p.length() && p.charAt(indexP) == MULTIPLE) {
-            indexP = p.length();
+        for (int i = 0; i < s.length(); i++) {
+            for (int j = 0; j < p.length(); j++) {
+                if (p.charAt(j) == WILDCARD || p.charAt(j) == s.charAt(i)) {
+                    // One-to-one matching (most simple case).
+                    result[i + 1][j + 1] = result[i][j];
+                } else if (p.charAt(j) == MULTIPLE) {
+                    if (p.charAt(j - 1) == WILDCARD || p.charAt(j - 1) == s.charAt(i)) {
+                        result[i + 1][j + 1] =  result[i + 1][j - 1]    // x* matches no x.
+                                        || result[i + 1][j]             // x* matches exactly one x.
+                                        || result[i][j + 1];            // x* matches multiple x's.
+                    } else {
+                        // x* matches no x.
+                        result[i + 1][j + 1] = result[i + 1][j - 1];
+                    }
+                }
+            }
         }
 
-        return indexP == p.length() && indexS == s.length();
+        return result[s.length()][p.length()];
     }
 }
