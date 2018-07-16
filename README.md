@@ -116,6 +116,10 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/swap-nodes-in-pairs/description/)] 
 [[My Answer](src/main/java/leetcode/list/SwapPairs.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160952855/)]
+25. Reverse Nodes in k-Group<br>
+[[Problem](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)] 
+[[My Answer](src/main/java/leetcode/list/ReverseNodes.java)] 
+[[Submission](https://leetcode.com/submissions/detail/160952855/)]
 26. Remove Duplicates from Sorted Array<br>
 [[Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)] 
 [[My Answer](src/main/java/leetcode/list/RemoveDuplicates.java)] 
@@ -236,6 +240,10 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/buddy-strings/description/)] 
 [[My Answer](src/main/java/leetcode/string/BuddyString.java)] 
 [[Submission](https://leetcode.com/submissions/detail/160468546/)]
+867. Transpose Matrix<br>
+[[Problem](https://leetcode.com/problems/transpose-matrix/description/)] 
+[[My Answer](src/main/java/leetcode/matrix/Transpose.java)] 
+[[Submission](https://leetcode.com/submissions/detail/164041240/)]
 
 #### Database
 
