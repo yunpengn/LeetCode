@@ -1,6 +1,7 @@
 package leetcode.helpers;
 
-public class ListNode {
+
+public class ListNode implements Comparable<ListNode> {
     public int val;
     public ListNode next = null;
 
@@ -21,5 +22,10 @@ public class ListNode {
             ListNode other = (ListNode) obj;
             return toString().equals(other.toString());
         }
+    }
+
+    @Override
+    public int compareTo(ListNode other) {
+        return val - other.val;
     }
 }

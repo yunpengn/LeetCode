@@ -1,5 +1,8 @@
 package leetcode.list;
 
+import java.util.Comparator;
+import java.util.PriorityQueue;
+
 import leetcode.helpers.ListNode;
 
 public class MergeLists {
@@ -40,7 +43,43 @@ public class MergeLists {
         return start;
     }
 
+    /**
+     * It is quite interesting to analyze the time complexity of this problem. In the solution
+     * presented below, we always maintain a {@link PriorityQueue} of size k. Thus, we would
+     * achieve a time complexity of O(nk * log k).
+     *
+     * @param lists is a list of linked lists.
+     * @return the list merged all together.
+     */
     public ListNode mergeKLists(ListNode[] lists) {
-        return lists[0];
+        if (lists == null || lists.length == 0) {
+            return null;
+        }
+
+        // Uses a priority queue to store all elements.
+        PriorityQueue<ListNode> queue = new PriorityQueue<>(Comparator.comparingInt(n -> n.val));
+        // Maintains the reference to the starting node.
+        ListNode start = new ListNode(0);
+        ListNode tail = start;
+
+        // Adds the starting node of all linked lists into the priority queue.
+        for (ListNode node: lists) {
+            if (node != null) {
+                queue.add(node);
+            }
+        }
+
+        // Extracts out all the elements in the priority queue. If the node is not the
+        // last node of its own original linked list, add its next node into the queue.
+        while (!queue.isEmpty()) {
+            tail.next = queue.poll();
+            tail = tail.next;
+
+            if (tail.next != null) {
+                queue.add(tail.next);
+            }
+        }
+
+        return start.next;
     }
 }

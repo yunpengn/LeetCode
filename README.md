@@ -103,7 +103,7 @@ I am passionate about programming and software engineering.
 21. Merge Two Sorted Lists<br>
 [[Problem](https://leetcode.com/problems/merge-two-sorted-lists/description/)] 
 [[My Answer](src/main/java/leetcode/list/MergeLists.java)] 
-[[Submission](https://leetcode.com/submissions/detail/160949830/)]
+[[Submission](https://leetcode.com/submissions/detail/164037595/)]
 22. Generate Parentheses<br>
 [[Problem](https://leetcode.com/problems/generate-parentheses/description/)] 
 [[My Answer](src/main/java/leetcode/string/GenerateParentheses.java)] 
