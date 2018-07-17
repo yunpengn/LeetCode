@@ -244,6 +244,10 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/word-pattern/description/)] 
 [[My Answer](src/main/java/leetcode/string/WordPattern.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159062813/)]
+322. Coin Change<br>
+[[Problem](https://leetcode.com/problems/coin-change/description/)] 
+[[My Answer](src/main/java/leetcode/CoinChange.java)] 
+[[Submission](https://leetcode.com/submissions/detail/164253498/)]
 745. Reach a Number<br>
 [[Problem](https://leetcode.com/problems/reach-a-number/description/)] 
 [[My Answer](src/main/java/leetcode/math/ReachNumber.java)] 
