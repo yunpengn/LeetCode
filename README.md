@@ -216,6 +216,10 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/linked-list-cycle/description/)] 
 [[My Answer](src/main/java/leetcode/list/LinkedListCycle.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159065345/)]
+153. Find Minimum in Rotated Sorted Array<br>
+[[Problem](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)] 
+[[My Answer](src/main/java/leetcode/list/RotatedMinimum.java)] 
+[[Submission](https://leetcode.com/submissions/detail/164199152/)]
 169. Majority Element<br>
 [[Problem](https://leetcode.com/problems/majority-element/description/)] 
 [[My Answer](src/main/java/leetcode/list/MajorityElement.java)] 
