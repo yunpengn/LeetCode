@@ -65,4 +65,21 @@ public class CombinationSum {
 
         return result;
     }
+
+    public int combinationSum4(int[] nums, int target) {
+        int[] count = new int[target + 1];
+        count[0] = 1;
+
+        for (int i = 1; i <= target; i++) {
+            int current = 0;
+            for (int num: nums) {
+                if (i >= num) {
+                    current += count[i - num];
+                }
+            }
+            count[i] = current;
+        }
+
+        return count[target];
+    }
 }
