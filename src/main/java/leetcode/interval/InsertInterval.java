@@ -15,18 +15,34 @@ public class InsertInterval {
 
         Iterator<Interval> iterator = intervals.listIterator();
         Interval current = iterator.next();
-        while (current.start < newInterval.end) {
+        while (current.end < newInterval.start) {
             result.add(current);
+            if (!iterator.hasNext()) {
+                break;
+            }
             current = iterator.next();
         }
 
-        while (current.end < newInterval.end) {
+        while (current.start <= newInterval.end) {
+            if (!iterator.hasNext()) {
+                break;
+            }
             current = iterator.next();
         }
         Interval merged = new Interval(newInterval.start, Math.max(current.end, newInterval.end));
         result.add(merged);
 
+        if (iterator.hasNext()) {
+            current = iterator.next();
+            while(current != null) {
+                result.add(current);
+                if (!iterator.hasNext()) {
+                    break;
+                }
+                current = iterator.next();
+            }
+        }
+
         return result;
     }
 }
-
