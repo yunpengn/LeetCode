@@ -224,6 +224,10 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/linked-list-cycle/description/)] 
 [[My Answer](src/main/java/leetcode/list/LinkedListCycle.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159065345/)]
+146. LRU Cache<br>
+[[Problem](https://leetcode.com/problems/lru-cache/description/)] 
+[[My Answer](src/main/java/leetcode/LruCache.java)] 
+[[Submission](https://leetcode.com/submissions/detail/164402246/)]
 152. Maximum Product Subarray<br>
 [[Problem](https://leetcode.com/problems/maximum-product-subarray/description/)] 
 [[My Answer](src/main/java/leetcode/list/MaxProductSubArray.java)] 
