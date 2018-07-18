@@ -226,7 +226,7 @@ I am passionate about programming and software engineering.
 [[Submission](https://leetcode.com/submissions/detail/159065345/)]
 146. LRU Cache<br>
 [[Problem](https://leetcode.com/problems/lru-cache/description/)] 
-[[My Answer](src/main/java/leetcode/LruCache.java)] 
+[[My Answer](src/main/java/leetcode/cache/LruCache.java)] 
 [[Submission](https://leetcode.com/submissions/detail/164402246/)]
 152. Maximum Product Subarray<br>
 [[Problem](https://leetcode.com/problems/maximum-product-subarray/description/)] 
@@ -270,7 +270,7 @@ I am passionate about programming and software engineering.
 [[Submission](https://leetcode.com/submissions/detail/164262367/)]
 460. LFU Cache<br>
 [[Problem](https://leetcode.com/problems/lfu-cache/description/)] 
-[[My Answer](src/main/java/leetcode/LfuCache.java)] 
+[[My Answer](src/main/java/leetcode/cache/LfuCache.java)] 
 [[Submission](https://leetcode.com/submissions/detail/164429628/)]
 745. Reach a Number<br>
 [[Problem](https://leetcode.com/problems/reach-a-number/description/)] 
