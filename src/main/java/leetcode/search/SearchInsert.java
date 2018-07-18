@@ -1,4 +1,4 @@
-package leetcode.list;
+package leetcode.search;
 
 public class SearchInsert {
     // Converts this problem into binary search (with minor changes).

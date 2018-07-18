@@ -1,4 +1,4 @@
-package leetcode.list;
+package leetcode.search;
 
 public class SearchRotated {
     // Defines "the amount of rotation".

@@ -146,15 +146,15 @@ I am passionate about programming and software engineering.
 [[Submission](https://leetcode.com/submissions/detail/163104196/)]
 33. Search in Rotated Sorted Array<br>
 [[Problem](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)] 
-[[My Answer](src/main/java/leetcode/list/SearchRotated.java)] 
+[[My Answer](src/main/java/leetcode/search/SearchRotated.java)] 
 [[Submission](https://leetcode.com/submissions/detail/162041193/)]
 34. Search for a Range<br>
 [[Problem](https://leetcode.com/problems/search-for-a-range/description/)] 
-[[My Answer](src/main/java/leetcode/list/SearchRange.java)] 
+[[My Answer](src/main/java/leetcode/search/SearchRange.java)] 
 [[Submission](https://leetcode.com/submissions/detail/162032654/)]
 35. Search Insert Position<br>
 [[Problem](https://leetcode.com/problems/search-insert-position/description/)] 
-[[My Answer](src/main/java/leetcode/list/SearchInsert.java)] 
+[[My Answer](src/main/java/leetcode/search/SearchInsert.java)] 
 [[Submission](https://leetcode.com/submissions/detail/161073197/)]
 36. Valid Sudoku<br>
 [[Problem](https://leetcode.com/problems/valid-sudoku/description/)] 
@@ -234,7 +234,7 @@ I am passionate about programming and software engineering.
 [[Submission](https://leetcode.com/submissions/detail/164185141/)]
 153. Find Minimum in Rotated Sorted Array<br>
 [[Problem](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)] 
-[[My Answer](src/main/java/leetcode/list/RotatedMinimum.java)] 
+[[My Answer](src/main/java/leetcode/search/RotatedMinimum.java)] 
 [[Submission](https://leetcode.com/submissions/detail/164199152/)]
 169. Majority Element<br>
 [[Problem](https://leetcode.com/problems/majority-element/description/)] 

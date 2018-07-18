@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import leetcode.search.SearchRotated;
+
 class SearchRotatedTest {
     private static final SearchRotated tester = new SearchRotated();
 

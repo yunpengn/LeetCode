@@ -1,4 +1,4 @@
-package leetcode.list;
+package leetcode.search;
 
 public class SearchRange {
     public int[] searchRange(int[] nums, int target) {
