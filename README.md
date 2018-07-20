@@ -272,6 +272,10 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/lfu-cache/description/)] 
 [[My Answer](src/main/java/leetcode/cache/LfuCache.java)] 
 [[Submission](https://leetcode.com/submissions/detail/164429628/)]
+470. Implement Rand10() Using Rand7()<br>
+[[Problem](https://leetcode.com/problems/implement-rand10-using-rand7/description/)] 
+[[My Answer](src/main/java/leetcode/Rand10.java)] 
+[[Submission](https://leetcode.com/submissions/detail/164764774/)]
 745. Reach a Number<br>
 [[Problem](https://leetcode.com/problems/reach-a-number/description/)] 
 [[My Answer](src/main/java/leetcode/math/ReachNumber.java)] 
