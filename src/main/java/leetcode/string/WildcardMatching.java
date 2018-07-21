@@ -34,7 +34,7 @@ public class WildcardMatching {
             indexP++;
         }
 
-        return true;
+        return indexP == p.length();
     }
 
     public boolean isMatch2(String s, String p) {

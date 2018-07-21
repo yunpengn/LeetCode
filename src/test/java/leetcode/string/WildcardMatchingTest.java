@@ -56,4 +56,9 @@ class WildcardMatchingTest {
     void test10() {
         assertTrue(tester.isMatch("a", "*a"));
     }
+
+    @Test
+    void test11() {
+        assertFalse(tester.isMatch("acdcb", "a*c?b"));
+    }
 }
