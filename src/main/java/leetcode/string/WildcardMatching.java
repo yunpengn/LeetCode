@@ -5,6 +5,39 @@ public class WildcardMatching {
     private static final char MULTIPLE = 42;
 
     public boolean isMatch(String s, String p) {
+        int indexS = 0;
+        int indexP = 0;
+        int matched = 0;
+        int lastMultiple = -1;
+
+        while (indexS < s.length()) {
+            if (indexP < p.length() && (p.charAt(indexP) == WILDCARD || p.charAt(indexP) == s.charAt(indexS))) {
+                // One-to-one matching.
+                indexS++;
+                indexP++;
+            } else if (indexP < p.length() && p.charAt(indexP) == MULTIPLE) {
+                // Assumes MULTIPLE matches nothing first.
+                lastMultiple = indexP;
+                matched = indexS;
+                indexP++;
+            } else if (lastMultiple != -1) {
+                // Goes back to last MULTIPLE if failed (that means the MULTIPLE matches one or more characters).
+                indexP = lastMultiple + 1;
+                matched++;
+                indexS = matched;
+            } else {
+                return false;
+            }
+        }
+
+        while (indexP < p.length() && p.charAt(indexP) == MULTIPLE) {
+            indexP++;
+        }
+
+        return true;
+    }
+
+    public boolean isMatch2(String s, String p) {
         boolean[][] matched = new boolean[s.length() + 1][p.length() + 1];
         matched[0][0] = true;
 
