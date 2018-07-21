@@ -63,4 +63,3 @@ public class WildcardMatching {
         return matched[s.length()][p.length()];
     }
 }
-
