@@ -204,6 +204,10 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/length-of-last-word/description/)] 
 [[My Answer](src/main/java/leetcode/string/LengthLastWord.java)] 
 [[Submission](https://leetcode.com/submissions/detail/163413222/)]
+66. Plus One<br>
+[[Problem](https://leetcode.com/problems/plus-one/description/)] 
+[[My Answer](src/main/java/leetcode/list/PlusOne.java)] 
+[[Submission](https://leetcode.com/submissions/detail/165312187/)]
 69. Sqrt(x)<br>
 [[Problem](https://leetcode.com/problems/sqrtx/description/)] 
 [[My Answer](src/main/java/leetcode/math/SquareRoot.java)] 
