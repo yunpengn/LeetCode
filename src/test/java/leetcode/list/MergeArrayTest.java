@@ -1,0 +1,19 @@
+package leetcode.list;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class MergeArrayTest {
+    private static final MergeArray tester = new MergeArray();
+
+    @Test
+    void test1() {
+        int[] arr1 = new int[]{ 1, 2, 3, 0, 0, 0 };
+        int[] arr2 = new int[]{ 2, 5, 6 };
+        tester.merge(arr1, 3, arr2, 3);
+
+        int[] expected = new int[]{ 1, 2, 2, 3, 5, 6 };
+        assertArrayEquals(expected, arr1);
+    }
+}
