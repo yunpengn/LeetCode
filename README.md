@@ -216,6 +216,10 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/climbing-stairs/description/)] 
 [[My Answer](src/main/java/leetcode/ClimbStairs.java)] 
 [[Submission](https://leetcode.com/submissions/detail/164250672/)]
+88. Merge Sorted Array<br>
+[[Problem](https://leetcode.com/problems/merge-sorted-array/)] 
+[[My Answer](src/main/java/leetcode/list/MergeArray.java)] 
+[[Submission](https://leetcode.com/submissions/detail/165335387/)]
 104. Maximum Depth of Binary Tree<br>
 [[Problem](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)] 
 [[My Answer](src/main/java/leetcode/tree/MaximumDepth.java)] 
