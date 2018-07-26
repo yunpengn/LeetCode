@@ -148,8 +148,8 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)] 
 [[My Answer](src/main/java/leetcode/search/SearchRotated.java)] 
 [[Submission](https://leetcode.com/submissions/detail/162041193/)]
-34. Search for a Range<br>
-[[Problem](https://leetcode.com/problems/search-for-a-range/description/)] 
+34. Find First and Last Position of Element in Sorted Array<br>
+[[Problem](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)] 
 [[My Answer](src/main/java/leetcode/search/SearchRange.java)] 
 [[Submission](https://leetcode.com/submissions/detail/162032654/)]
 35. Search Insert Position<br>
