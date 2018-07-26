@@ -208,6 +208,10 @@ I am passionate about programming and software engineering.
 [[Problem](https://leetcode.com/problems/plus-one/description/)] 
 [[My Answer](src/main/java/leetcode/list/PlusOne.java)] 
 [[Submission](https://leetcode.com/submissions/detail/165312187/)]
+67. Add Binary<br>
+[[Problem](https://leetcode.com/problems/add-binary/description/)] 
+[[My Answer](src/main/java/leetcode/string/AddBinary.java)] 
+[[Submission](https://leetcode.com/submissions/detail/165869152/)]
 69. Sqrt(x)<br>
 [[Problem](https://leetcode.com/problems/sqrtx/description/)] 
 [[My Answer](src/main/java/leetcode/math/SquareRoot.java)] 
