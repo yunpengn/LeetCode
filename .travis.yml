@@ -3,8 +3,12 @@ matrix:
     include:
         - jdk: oraclejdk10
 
+install:
+    - gem install awesome_bot
+
 script:
-    travis_retry ./gradlew clean build
+    - travis_retry ./gradlew clean build
+    - awesome_bot README.md --allow-dupe --allow-redirect --allow 429 --skip-save-results
 
 before_cache:
     - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
