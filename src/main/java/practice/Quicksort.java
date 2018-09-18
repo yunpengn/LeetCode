@@ -35,6 +35,36 @@ public class Quicksort {
     }
 
     /**
+     * Selects the kth smallest element from the given array.
+     *
+     * @param arr is an array of integers.
+     * @param k is the index of the result.
+     *
+     * @return the value of the kth smallest element.
+     */
+    int select(int[] arr, int k) {
+        int start = 0;
+        int end = arr.length - 1;
+        int position = -1;
+
+        // Finds the position of a selected pivot.
+        while (start < end) {
+            position = partition(arr, start, end);
+
+            // Updates the range.
+            if (position == k) {
+                return arr[position];
+            } else if (position > k) {
+                end = position - 1;
+            } else {
+                start = position + 1;
+            }
+        }
+
+        return Integer.MAX_VALUE;
+    }
+
+    /**
      * Partitions an array by a given pivot value. Here, we always use the first
      * element within the intended range as the pivot.
      *
