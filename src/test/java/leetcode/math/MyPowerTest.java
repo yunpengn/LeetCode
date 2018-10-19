@@ -1,13 +1,11 @@
 package leetcode.math;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-import org.junit.jupiter.api.RepeatedTest;
-import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.Random;
 
-import leetcode.math.MyPower;
+import org.junit.jupiter.api.RepeatedTest;
+import org.junit.jupiter.api.Test;
 
 class MyPowerTest {
     // An instance of BinarySearch to be tested.

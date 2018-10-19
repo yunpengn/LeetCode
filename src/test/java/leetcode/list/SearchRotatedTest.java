@@ -1,10 +1,9 @@
 package leetcode.list;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import leetcode.search.SearchRotated;
+import org.junit.jupiter.api.Test;
 
 class SearchRotatedTest {
     private static final SearchRotated tester = new SearchRotated();

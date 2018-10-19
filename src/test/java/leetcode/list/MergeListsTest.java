@@ -1,10 +1,9 @@
 package leetcode.list;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import leetcode.helpers.ListNode;
+import org.junit.jupiter.api.Test;
 
 class MergeListsTest {
     private static final MergeLists tester = new MergeLists();

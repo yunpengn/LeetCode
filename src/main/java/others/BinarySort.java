@@ -1,8 +1,7 @@
 package others;
 
-import java.util.Objects;
-
 public class BinarySort {
+    // This version makes use of the idea of quicksort.
     static int moves(int[] a) {
         // Uses two pointers from two ends of the array to check.
         // Similar to the partition process of quicksort.
@@ -32,8 +31,6 @@ public class BinarySort {
                 high--;
             }
         }
-
-        Objects.hash(low);
 
         return moves;
     }

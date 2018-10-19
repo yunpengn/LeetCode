@@ -1,10 +1,9 @@
 package leetcode;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import leetcode.cache.LfuCache;
+import org.junit.jupiter.api.Test;
 
 class LfuCacheTest {
     @Test
