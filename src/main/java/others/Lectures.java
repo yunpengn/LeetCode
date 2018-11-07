@@ -149,13 +149,13 @@ class HallStatusBoard {
 
         // Gets the best hall and removes.
         Hall predecessor = status.lower(dummyHall);
+        status.remove(dummyHall);
         if (predecessor == null) {
             return false;
         }
-        status.remove(dummyHall);
-        status.remove(predecessor);
 
         // Updates the status of the best hall selected.
+        status.remove(predecessor);
         predecessor.endTime = endTime;
         status.add(predecessor);
         return true;
