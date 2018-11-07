@@ -20,6 +20,6 @@ class LecturesTest {
         int[] start = new int[]{ 2, 4, 3, 5, 1 };
         int[] end = new int[]{ 3, 5, 4, 6, 2 };
         assertEquals(1, tester.calculateMinimumHalls(start.length, start, end));
-        assertEquals(0, tester.calculateMinimumCancels(start.length, 2, start, end));
+        assertEquals(0, tester.calculateMinimumCancels(start.length, 5, start, end));
     }
 }

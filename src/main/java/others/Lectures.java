@@ -10,60 +10,14 @@ public class Lectures {
         // Creates a priority queue containing the moments needed to consider.
         PriorityQueue<Moment> moments = insertAllMoments(start, end);
 
-        // Assignment from lecture ID to hall ID.
-        int[] assignment = new int[N];
-
-        return assignLectureHall(moments, assignment);
-    }
-
-    int calculateMinimumCancels(int N, int L, int[] start, int[] end) {
-        // Creates a priority queue containing the moments needed to consider.
-        PriorityQueue<Moment> moments = insertAllMoments(start, end);
-
-        // Assignment from lecture ID to hall ID.
-        int[] assignment = new int[N];
-        int hallCount = assignLectureHall(moments, assignment);
-        if (hallCount <= L) {
-            return 0;
-        }
-
-        // Statistics for each individual lecture hall.
-        int[] statistics = new int[hallCount];
-        for (int i = 0; i < N; i++) {
-            statistics[assignment[i]]++;
-        }
-        Arrays.sort(statistics);
-
-        int cancelCount = 0;
-        for (int i = 0; i < hallCount - L; i++) {
-            cancelCount += statistics[i];
-        }
-
-        return cancelCount;
-    }
-
-    private PriorityQueue<Moment> insertAllMoments(int[] start, int[] end) {
-        // Creates a priority queue containing the moments needed to consider.
-        PriorityQueue<Moment> moments = new PriorityQueue<>();
-
-        // Inserts the starting & ending points of all lectures.
-        for (int i = 0; i < start.length; i++) {
-            Moment startMoment = new Moment(start[i], MomentType.START, i);
-            moments.add(startMoment);
-            Moment endMoment = new Moment(end[i], MomentType.END, i);
-            moments.add(endMoment);
-        }
-
-        return moments;
-    }
-
-    private int assignLectureHall(PriorityQueue<Moment> moments, int[] assignment) {
         // Creates a queue containing all the available halls (can manually
         // create a new hall).
         Queue<Integer> availableHalls = new LinkedList<>();
 
         // Counts the number of halls created so far.
         int hallCount = 0;
+        // Assignment from lecture ID to hall ID.
+        int[] assignment = new int[N];
 
         // Arranges each lecture into the first available hall.
         while (!moments.isEmpty()) {
@@ -86,6 +40,90 @@ public class Lectures {
         }
 
         return hallCount;
+    }
+
+    int calculateMinimumCancels(int N, int L, int[] start, int[] end) {
+        // Creates a sorted array of all lectures.
+        Session[] lectures = insertAndSortAllLectures(start, end);
+
+        // Creates an array storing the end-time of the previous lecture in each hall.
+        int[] endTime = new int[L];
+        for (int i = 0; i < L; i++) {
+            endTime[i] = -1;
+        }
+
+        // Counts the number of lectures cancelled.
+        int cancelCount = 0;
+
+        for (int i = 0; i < N; i++) {
+            Session current = lectures[i];
+
+            // Finds the best hall. A hall is defined to be the best if the end-time of the
+            // previous lecture in that hall is nearest to the start-time of this lecture.
+            int bestHall = -1;
+            int breakTime = Integer.MAX_VALUE;
+            for (int j = 0; j < L; j++) {
+                int newBreakTime = current.start - endTime[j];
+
+                // The break-time between any two consecutive lectures in the same hall must be >= 0.
+                if (newBreakTime >= 0 && newBreakTime < breakTime) {
+                    bestHall = j;
+                    breakTime = newBreakTime;
+                }
+            }
+
+            // If we cannot find any hall, we have to cancel this lecture.
+            if (bestHall == -1) {
+                cancelCount++;
+            } else {
+                endTime[bestHall] = current.end;
+            }
+        }
+
+        return cancelCount;
+    }
+
+    private PriorityQueue<Moment> insertAllMoments(int[] start, int[] end) {
+        // Creates a priority queue containing the moments needed to consider.
+        PriorityQueue<Moment> moments = new PriorityQueue<>();
+
+        // Inserts the starting & ending points of all lectures.
+        for (int i = 0; i < start.length; i++) {
+            Moment startMoment = new Moment(start[i], MomentType.START, i);
+            moments.add(startMoment);
+            Moment endMoment = new Moment(end[i], MomentType.END, i);
+            moments.add(endMoment);
+        }
+
+        return moments;
+    }
+
+    private Session[] insertAndSortAllLectures(int[] start, int[] end){
+        Session[] result = new Session[start.length];
+        
+        // Inserts each lecture.
+        for (int i = 0; i < start.length; i++) {
+            result[i] = new Session(start[i], end[i]);
+        }
+
+        // Returns the sorted array according to end time.
+        Arrays.sort(result);
+        return result;
+    }
+}
+
+class Session implements Comparable<Session> {
+    final int start;
+    final int end;
+
+    Session(final int start, final int end) {
+        this.start = start;
+        this.end = end;
+    }
+
+    @Override
+    public int compareTo(Session other) {
+        return this.end - other.end;
     }
 }
 
