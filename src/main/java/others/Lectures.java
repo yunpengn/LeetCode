@@ -1,5 +1,6 @@
 package others;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
@@ -16,7 +17,29 @@ public class Lectures {
     }
 
     int calculateMinimumCancels(int N, int L, int[] start, int[] end) {
-        return 0;
+        // Creates a priority queue containing the moments needed to consider.
+        PriorityQueue<Moment> moments = insertAllMoments(start, end);
+
+        // Assignment from lecture ID to hall ID.
+        int[] assignment = new int[N];
+        int hallCount = assignLectureHall(moments, assignment);
+        if (hallCount <= L) {
+            return 0;
+        }
+
+        // Statistics for each individual lecture hall.
+        int[] statistics = new int[hallCount];
+        for (int i = 0; i < N; i++) {
+            statistics[assignment[i]]++;
+        }
+        Arrays.sort(statistics);
+
+        int cancelCount = 0;
+        for (int i = 0; i < hallCount - L; i++) {
+            cancelCount += statistics[i];
+        }
+
+        return cancelCount;
     }
 
     private PriorityQueue<Moment> insertAllMoments(int[] start, int[] end) {
