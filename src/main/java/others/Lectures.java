@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
+import java.util.TreeSet;
 
 public class Lectures {
     int calculateMinimumHalls(int N, int[] start, int[] end) {
@@ -46,11 +47,8 @@ public class Lectures {
         // Creates a sorted array of all lectures.
         Session[] lectures = insertAndSortAllLectures(start, end);
 
-        // Creates an array storing the end-time of the previous lecture in each hall.
-        int[] endTime = new int[L];
-        for (int i = 0; i < L; i++) {
-            endTime[i] = -1;
-        }
+        // Uses this status board to store information about all halls.
+        HallStatusBoard status = new HallStatusBoard(L);
 
         // Counts the number of lectures cancelled.
         int cancelCount = 0;
@@ -58,25 +56,9 @@ public class Lectures {
         for (int i = 0; i < N; i++) {
             Session current = lectures[i];
 
-            // Finds the best hall. A hall is defined to be the best if the end-time of the
-            // previous lecture in that hall is nearest to the start-time of this lecture.
-            int bestHall = -1;
-            int breakTime = Integer.MAX_VALUE;
-            for (int j = 0; j < L; j++) {
-                int newBreakTime = current.start - endTime[j];
-
-                // The break-time between any two consecutive lectures in the same hall must be >= 0.
-                if (newBreakTime >= 0 && newBreakTime < breakTime) {
-                    bestHall = j;
-                    breakTime = newBreakTime;
-                }
-            }
-
-            // If we cannot find any hall, we have to cancel this lecture.
-            if (bestHall == -1) {
+            // If cannot find any best hall, that means this lecture must be cancelled.
+            if (!status.getBestHallAndUpdateStartTime(current.start, current.end)) {
                 cancelCount++;
-            } else {
-                endTime[bestHall] = current.end;
             }
         }
 
@@ -112,6 +94,77 @@ public class Lectures {
     }
 }
 
+/**
+ * A {@link HallStatusBoard} is a point-of-access for information regarding all halls
+ * at the current moment. Minimally, it stores the ending time of lectures going on
+ * currently in all lecture halls.
+ */
+class HallStatusBoard {
+    class Hall implements Comparable<Hall> {
+        int id;
+        int endTime;
+
+        Hall(int id, int endTime) {
+            this.id = id;
+            this.endTime = endTime;
+        }
+
+        @Override
+        public int compareTo(Hall other) {
+            int diff = this.endTime - other.endTime;
+            if (diff == 0) {
+                return this.id - other.id;
+            } else {
+                return diff;
+            }
+        }
+    }
+
+    // A tree map whose keys are the IDs of all halls, whose values are the ending times
+    // of lectures going on in respective halls. TreeSet is used here to maintain the
+    // order of all halls by ending time.
+    private final TreeSet<Hall> status = new TreeSet<>();
+
+    HallStatusBoard(int numOfHalls) {
+        // Initializes the ending times of all halls to be -1 (dummy value).
+        for (int i = 0; i < numOfHalls; i++) {
+            status.add(new Hall(i, -1));
+        }
+    }
+
+    /**
+     * Finds the best hall and updates the status of that hall. A hall is defined to be the
+     * best if the end-time of the previous lecture in that hall is nearest to the start-time
+     * of this lecture. Therefore, this query is equivalent to a standard predecessor operation.
+     *
+     * @param startTime is the start time of the lecture in concern.
+     * @param endTime is the new end time for that best hall selected.
+     *
+     * @return true unless we cannot find any hall available.
+     */
+    boolean getBestHallAndUpdateStartTime(int startTime, int endTime) {
+        // Inserts a dummy entry to the TreeSet.
+        Hall dummyHall = new Hall(-1, startTime);
+        status.add(dummyHall);
+
+        // Gets the best hall and removes.
+        Hall predecessor = status.lower(dummyHall);
+        if (predecessor == null) {
+            return false;
+        }
+        status.remove(dummyHall);
+        status.remove(predecessor);
+
+        // Updates the status of the best hall selected.
+        predecessor.endTime = endTime;
+        status.add(predecessor);
+        return true;
+    }
+}
+
+/**
+ * Uses the {@link Session} class to represent lecture sessions.
+ */
 class Session implements Comparable<Session> {
     final int start;
     final int end;
