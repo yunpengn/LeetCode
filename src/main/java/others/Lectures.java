@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.TreeSet;
 
-public class Lectures {
+class Lectures {
     int calculateMinimumHalls(int N, int[] start, int[] end) {
         // Creates a priority queue containing the moments needed to consider.
         PriorityQueue<Moment> moments = insertAllMoments(start, end);
@@ -144,7 +144,7 @@ class HallStatusBoard {
      */
     boolean getBestHallAndUpdateStartTime(int startTime, int endTime) {
         // Inserts a dummy entry to the TreeSet.
-        Hall dummyHall = new Hall(-1, startTime);
+        Hall dummyHall = new Hall(Integer.MAX_VALUE, startTime);
         status.add(dummyHall);
 
         // Gets the best hall and removes.

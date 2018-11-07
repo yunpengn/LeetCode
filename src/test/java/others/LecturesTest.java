@@ -22,4 +22,12 @@ class LecturesTest {
         assertEquals(1, tester.calculateMinimumHalls(start.length, start, end));
         assertEquals(0, tester.calculateMinimumCancels(start.length, 5, start, end));
     }
+
+    @Test
+    void test3() {
+        int[] start = new int[]{ 2, 9, 7, 7, 4 };
+        int[] end = new int[]{ 9, 10, 10, 9, 10 };
+        assertEquals(4, tester.calculateMinimumHalls(start.length, start, end));
+        assertEquals(1, tester.calculateMinimumCancels(start.length, 3, start, end));
+    }
 }
