@@ -22,6 +22,7 @@ public class Lectures {
         }
 
         // Arranges each lecture into the first available hall.
+        Hall.reset();
         while (!moments.isEmpty()) {
             Moment current = moments.poll();
 
@@ -56,6 +57,10 @@ class Hall {
 
     static int getHallCount() {
         return hallCount;
+    }
+
+    static void reset() {
+        hallCount = 0;
     }
 }
 
