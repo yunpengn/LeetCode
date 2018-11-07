@@ -11,10 +11,16 @@ public class Lectures {
 
         // Creates a queue containing all the available halls (can manually
         // create a new hall).
-        Queue<Hall> availableHalls = new LinkedList<>();
+        Queue<Integer> availableHalls = new LinkedList<>();
+
+        // Counts the number of halls created so far.
+        int hallCount = 0;
+
+        // Assignment from lecture ID to hall ID.
+        int[] assignment = new int[N];
 
         // Inserts the starting & ending points of all lectures.
-        for (int i = 0; i < start.length; i++) {
+        for (int i = 0; i < N; i++) {
             Moment startMoment = new Moment(start[i], MomentType.START, i);
             moments.add(startMoment);
             Moment endMoment = new Moment(end[i], MomentType.END, i);
@@ -22,45 +28,30 @@ public class Lectures {
         }
 
         // Arranges each lecture into the first available hall.
-        Hall.reset();
         while (!moments.isEmpty()) {
             Moment current = moments.poll();
 
             if (current.type == MomentType.START) {
-                Hall hall = availableHalls.isEmpty() ? new Hall() : availableHalls.poll();
-                current.assignHall(hall);
+                if (availableHalls.isEmpty()) {
+                    int newHall = hallCount;
+                    assignment[current.lectureId] = newHall;
+                    hallCount++;
+                } else {
+                    int oldHall = availableHalls.poll();
+                    assignment[current.lectureId] = oldHall;
+                }
             } else {
                 // Since start[i] < end[i], this lecture must have been assigned a hall at this moment.
-                Hall hall = current.getAssignedHall();
-                availableHalls.add(hall);
+                int assignedHall = assignment[current.lectureId];
+                availableHalls.add(assignedHall);
             }
         }
 
-        return Hall.getHallCount();
+        return hallCount;
     }
 
     int calculateMinimumCancels(int N, int L, int[] start, int[] end) {
         return 0;
-    }
-}
-
-/**
- * Represents the lecture halls, each instance of which has a unique (incremental)
- * ID to identify.
- */
-class Hall {
-    private static int hallCount = 0;
-
-    Hall() {
-        hallCount++;
-    }
-
-    static int getHallCount() {
-        return hallCount;
-    }
-
-    static void reset() {
-        hallCount = 0;
     }
 }
 
@@ -72,20 +63,11 @@ class Moment implements Comparable<Moment> {
     private final int value;
     final MomentType type;
     final int lectureId;
-    private Hall assignedHall;
 
     Moment(final int value, final MomentType type, final int lectureId) {
         this.value = value;
         this.type = type;
         this.lectureId = lectureId;
-    }
-
-    void assignHall(Hall hall) {
-        this.assignedHall = hall;
-    }
-
-    public Hall getAssignedHall() {
-        return assignedHall;
     }
 
     @Override
