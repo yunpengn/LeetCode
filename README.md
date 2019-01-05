@@ -2,15 +2,13 @@
 
 [![Build Status](https://travis-ci.org/yunpengn/LeetCode.svg?branch=master)](https://travis-ci.org/yunpengn/LeetCode)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/089367c33a5a49e0983c02236205473d)](https://www.codacy.com/app/yunpengn/LeetCode?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=yunpengn/LeetCode&amp;utm_campaign=Badge_Grade)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=yunpengn/LeetCode)](https://dependabot.com)
 
-This repository contains my solutions to some selected programming problems on [LeetCode](https://leetcode.com/). You 
-may want to read this [article](docs/features.md) to understand what makes this repository different from other LeetCode 
-solution repositories hosted on GitHub.
+This repository contains my solutions to some selected programming problems on [LeetCode](https://leetcode.com/). You may want to read this [article](docs/features.md) to understand what makes this repository different from other LeetCode solution repositories hosted on GitHub.
 
 ## About Me
 
-I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at the [National University of Singapore](http://www.nus.edu.sg/). 
-I am passionate about programming and software engineering.
+I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at the [National University of Singapore](http://www.nus.edu.sg/). I am passionate about programming and software engineering.
 
 - Personal Website: [https://yunpengn.github.io/](https://yunpengn.github.io/)
 - LinkedIn: [@Yunpeng Niu](https://www.linkedin.com/in/yunpeng-niu/en)
