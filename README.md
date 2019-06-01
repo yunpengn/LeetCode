@@ -290,6 +290,10 @@ I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at
 [[Problem](https://leetcode.com/problems/range-sum-query-immutable/description/)] 
 [[My Answer](src/main/java/leetcode/list/NumArray.java)] 
 [[Submission](https://leetcode.com/submissions/detail/232815354/)]
+304. Range Sum Query 2D - Immutable<br>
+[[Problem](https://leetcode.com/problems/range-sum-query-2d-immutable/description/)] 
+[[My Answer](src/main/java/leetcode/matrix/NumMatrix.java)] 
+[[Submission](https://leetcode.com/submissions/detail/232826247/)]
 322. Coin Change<br>
 [[Problem](https://leetcode.com/problems/coin-change/description/)] 
 [[My Answer](src/main/java/leetcode/CoinChange.java)] 
