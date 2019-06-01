@@ -286,6 +286,10 @@ I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at
 [[Problem](https://leetcode.com/problems/word-pattern/description/)] 
 [[My Answer](src/main/java/leetcode/string/WordPattern.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159062813/)]
+303. Range Sum Query - Immutable<br>
+[[Problem](https://leetcode.com/problems/range-sum-query-immutable/description/)] 
+[[My Answer](src/main/java/leetcode/list/NumArray.java)] 
+[[Submission](https://leetcode.com/submissions/detail/232815354/)]
 322. Coin Change<br>
 [[Problem](https://leetcode.com/problems/coin-change/description/)] 
 [[My Answer](src/main/java/leetcode/CoinChange.java)] 
