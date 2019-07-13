@@ -234,6 +234,10 @@ I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at
 [[Problem](https://leetcode.com/problems/same-tree/description/)] 
 [[My Answer](src/main/java/leetcode/tree/SameTree.java)] 
 [[Submission](https://leetcode.com/submissions/detail/165713975/)]
+101. Symmetric Tree<br>
+[[Problem](https://leetcode.com/problems/symmetric-tree/description/)] 
+[[My Answer](src/main/java/leetcode/tree/SymmetricTree.java)] 
+[[Submission](https://leetcode.com/submissions/detail/242953179/)]
 104. Maximum Depth of Binary Tree<br>
 [[Problem](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)] 
 [[My Answer](src/main/java/leetcode/tree/MaximumDepth.java)] 
