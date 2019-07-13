@@ -222,6 +222,10 @@ I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at
 [[Problem](https://leetcode.com/problems/sort-colors/description/)] 
 [[My Answer](src/main/java/leetcode/list/SortColors.java)] 
 [[Submission](https://leetcode.com/submissions/detail/166104752/)]
+83. Remove Duplicates from Sorted List<br>
+[[Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)] 
+[[My Answer](src/main/java/leetcode/list/RemoveDuplicatesList.java)] 
+[[Submission](https://leetcode.com/submissions/detail/242950309/)]
 88. Merge Sorted Array<br>
 [[Problem](https://leetcode.com/problems/merge-sorted-array/)] 
 [[My Answer](src/main/java/leetcode/list/MergeArray.java)] 
