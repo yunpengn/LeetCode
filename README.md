@@ -242,10 +242,22 @@ I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at
 [[Problem](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)] 
 [[My Answer](src/main/java/leetcode/tree/MaximumDepth.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159213498/)]
+112. Path Sum<br>
+[[Problem](https://leetcode.com/problems/path-sum/description/)] 
+[[My Answer](src/main/java/leetcode/tree/PathSum.java)] 
+[[Submission](https://leetcode.com/submissions/detail/257058290/)]
 114. Flatten Binary Tree to Linked List<br>
 [[Problem](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)] 
 [[My Answer](src/main/java/leetcode/tree/FlattenTree.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159213228/)]
+118. Pascal's Triangle<br>
+[[Problem](https://leetcode.com/problems/pascals-triangle/description/)] 
+[[My Answer](src/main/java/leetcode/list/PascalTriangle.java)] 
+[[Submission](https://leetcode.com/submissions/detail/257059950/)]
+119. Pascal's Triangle II<br>
+[[Problem](https://leetcode.com/problems/pascals-triangle/description/)] 
+[[My Answer](src/main/java/leetcode/list/PascalTriangle.java)] 
+[[Submission](https://leetcode.com/submissions/detail/257060453/)]
 120. Triangle<br>
 [[Problem](https://leetcode.com/problems/triangle/description/)] 
 [[My Answer](src/main/java/leetcode/TriangleMinPath.java)] 
