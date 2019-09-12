@@ -246,6 +246,10 @@ I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at
 [[Problem](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/)] 
 [[My Answer](src/main/java/leetcode/tree/LevelOrderTraversal.java)] 
 [[Submission](https://leetcode.com/submissions/detail/260192921/)]
+110. Balanced Binary Tree<br>
+[[Problem](https://leetcode.com/problems/balanced-binary-tree/description/)] 
+[[My Answer](src/main/java/leetcode/tree/BalancedTree.java)] 
+[[Submission](https://leetcode.com/submissions/detail/260194631/)]
 112. Path Sum<br>
 [[Problem](https://leetcode.com/problems/path-sum/description/)] 
 [[My Answer](src/main/java/leetcode/tree/PathSum.java)] 
