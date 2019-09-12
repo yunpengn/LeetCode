@@ -250,6 +250,10 @@ I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at
 [[Problem](https://leetcode.com/problems/balanced-binary-tree/description/)] 
 [[My Answer](src/main/java/leetcode/tree/BalancedTree.java)] 
 [[Submission](https://leetcode.com/submissions/detail/260194631/)]
+111. Minimum Depth of Binary Tree<br>
+[[Problem](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)] 
+[[My Answer](src/main/java/leetcode/tree/MinimumDepth.java)] 
+[[Submission](https://leetcode.com/submissions/detail/260195863/)]
 112. Path Sum<br>
 [[Problem](https://leetcode.com/problems/path-sum/description/)] 
 [[My Answer](src/main/java/leetcode/tree/PathSum.java)] 
