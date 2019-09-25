@@ -198,6 +198,10 @@ I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at
 [[Problem](https://leetcode.com/problems/maximum-subarray/description/)] 
 [[My Answer](src/main/java/leetcode/list/MaxSubArray.java)] 
 [[Submission](https://leetcode.com/submissions/detail/176868361/)]
+56. Merge Intervals<br>
+[[Problem](https://leetcode.com/problems/merge-intervals/description/)] 
+[[My Answer](src/main/java/leetcode/interval/MergeInterval.java)] 
+[[Submission](https://leetcode.com/submissions/detail/264150714/)]
 58. Length of Last Word<br>
 [[Problem](https://leetcode.com/problems/length-of-last-word/description/)] 
 [[My Answer](src/main/java/leetcode/string/LengthLastWord.java)] 
@@ -226,6 +230,10 @@ I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at
 [[Problem](https://leetcode.com/problems/sort-colors/description/)] 
 [[My Answer](src/main/java/leetcode/list/SortColors.java)] 
 [[Submission](https://leetcode.com/submissions/detail/166104752/)]
+78. Subsets<br>
+[[Problem](https://leetcode.com/problems/subsets/description/)] 
+[[My Answer](src/main/java/leetcode/list/Subset.java)] 
+[[Submission](https://leetcode.com/submissions/detail/264152498/)]
 83. Remove Duplicates from Sorted List<br>
 [[Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)] 
 [[My Answer](src/main/java/leetcode/list/RemoveDuplicatesList.java)] 
