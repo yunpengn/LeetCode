@@ -202,6 +202,10 @@ I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at
 [[Problem](https://leetcode.com/problems/length-of-last-word/description/)] 
 [[My Answer](src/main/java/leetcode/string/LengthLastWord.java)] 
 [[Submission](https://leetcode.com/submissions/detail/163413222/)]
+61. Rotate List<br>
+[[Problem](https://leetcode.com/problems/rotate-list/description/)] 
+[[My Answer](src/main/java/leetcode/list/RotateRight.java)] 
+[[Submission](https://leetcode.com/submissions/detail/264146538/)]
 66. Plus One<br>
 [[Problem](https://leetcode.com/problems/plus-one/description/)] 
 [[My Answer](src/main/java/leetcode/list/PlusOne.java)] 
