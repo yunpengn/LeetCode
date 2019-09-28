@@ -314,6 +314,10 @@ I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at
 [[Problem](https://leetcode.com/problems/clone-graph/description/)] 
 [[My Answer](src/main/java/leetcode/graph/CloneGraph.java)] 
 [[Submission](https://leetcode.com/submissions/detail/164381602/)]
+136. Single Number<br>
+[[Problem](https://leetcode.com/problems/single-number/description/)] 
+[[My Answer](src/main/java/leetcode/math/SingleNumber.java)] 
+[[Submission](https://leetcode.com/submissions/detail/264992081/)]
 141. Linked List Cycle<br>
 [[Problem](https://leetcode.com/problems/linked-list-cycle/description/)] 
 [[My Answer](src/main/java/leetcode/list/LinkedListCycle.java)] 
@@ -389,6 +393,10 @@ I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at
 470. Implement Rand10() Using Rand7()<br>
 [[Problem](https://leetcode.com/problems/implement-rand10-using-rand7/description/)] 
 [[My Answer](src/main/java/leetcode/Rand10.java)] 
+[[Submission](https://leetcode.com/submissions/detail/164764774/)]
+496. Next Greater Element I<br>
+[[Problem](https://leetcode.com/problems/next-greater-element-i/description/)] 
+[[My Answer](src/main/java/leetcode/list/NextGreaterElement.java)] 
 [[Submission](https://leetcode.com/submissions/detail/164764774/)]
 745. Reach a Number<br>
 [[Problem](https://leetcode.com/problems/reach-a-number/description/)] 
