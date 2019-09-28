@@ -342,6 +342,10 @@ I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at
 [[Problem](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)] 
 [[My Answer](src/main/java/leetcode/list/IntersectList.java)] 
 [[Submission](https://leetcode.com/submissions/detail/264749828/)]
+167. Two Sum II - Input array is sorted<br>
+[[Problem](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)] 
+[[My Answer](src/main/java/leetcode/sum/TwoSum.java)] 
+[[Submission](https://leetcode.com/submissions/detail/264993969/)]
 169. Majority Element<br>
 [[Problem](https://leetcode.com/problems/majority-element/description/)] 
 [[My Answer](src/main/java/leetcode/list/MajorityElement.java)] 
