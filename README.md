@@ -334,6 +334,10 @@ I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at
 [[Problem](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)] 
 [[My Answer](src/main/java/leetcode/search/RotatedMinimum.java)] 
 [[Submission](https://leetcode.com/submissions/detail/164199152/)]
+155. Min Stack<br>
+[[Problem](https://leetcode.com/problems/min-stack/description/)] 
+[[My Answer](src/main/java/leetcode/list/MinStack.java)] 
+[[Submission](https://leetcode.com/submissions/detail/264993339/)]
 160. Intersection of Two Linked Lists<br>
 [[Problem](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)] 
 [[My Answer](src/main/java/leetcode/list/IntersectList.java)] 
