@@ -350,6 +350,10 @@ I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at
 [[Problem](https://leetcode.com/problems/majority-element/description/)] 
 [[My Answer](src/main/java/leetcode/list/MajorityElement.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159211732/)]
+171. Excel Sheet Column Number<br>
+[[Problem](https://leetcode.com/problems/excel-sheet-column-number/description/)] 
+[[My Answer](src/main/java/leetcode/string/ExcelColumn.java)] 
+[[Submission](https://leetcode.com/submissions/detail/264994839/)]
 187. Repeated DNA Sequence<br>
 [[Problem](https://leetcode.com/problems/repeated-dna-sequences/description/)] 
 [[My Answer](src/main/java/leetcode/RepeatedDNA.java)] 
