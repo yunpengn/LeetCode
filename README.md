@@ -354,6 +354,10 @@ I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at
 [[Problem](https://leetcode.com/problems/excel-sheet-column-number/description/)] 
 [[My Answer](src/main/java/leetcode/string/ExcelColumn.java)] 
 [[Submission](https://leetcode.com/submissions/detail/264994839/)]
+172. Factorial Trailing Zeroes<br>
+[[Problem](https://leetcode.com/problems/factorial-trailing-zeroes/description/)] 
+[[My Answer](src/main/java/leetcode/number/FactorialZero.java)] 
+[[Submission](https://leetcode.com/submissions/detail/264995437/)]
 187. Repeated DNA Sequence<br>
 [[Problem](https://leetcode.com/problems/repeated-dna-sequences/description/)] 
 [[My Answer](src/main/java/leetcode/RepeatedDNA.java)] 
