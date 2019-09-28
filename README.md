@@ -234,6 +234,10 @@ I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at
 [[Problem](https://leetcode.com/problems/subsets/description/)] 
 [[My Answer](src/main/java/leetcode/list/Subset.java)] 
 [[Submission](https://leetcode.com/submissions/detail/264152498/)]
+80. Remove Duplicates from Sorted Array II<br>
+[[Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/)] 
+[[My Answer](src/main/java/leetcode/list/RemoveDuplicates.java)] 
+[[Submission](https://leetcode.com/submissions/detail/265003121/)]
 83. Remove Duplicates from Sorted List<br>
 [[Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)] 
 [[My Answer](src/main/java/leetcode/list/RemoveDuplicatesList.java)] 

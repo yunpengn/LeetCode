@@ -31,4 +31,16 @@ public class RemoveDuplicates {
         nums[index1] = nums[index2];
         nums[index2] = temp;
     }
+
+    public int removeDuplicates2(int[] nums) {
+        int i = 0;
+        for (int num: nums) {
+            if (i < 2 || num > nums[i - 2]) {
+                nums[i] = num;
+                i++;
+            }
+        }
+
+        return i;
+    }
 }
