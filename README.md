@@ -362,6 +362,10 @@ I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at
 [[Problem](https://leetcode.com/problems/repeated-dna-sequences/description/)] 
 [[My Answer](src/main/java/leetcode/RepeatedDNA.java)] 
 [[Submission](https://leetcode.com/submissions/detail/159212182/)]
+189. Rotate Array<br>
+[[Problem](https://leetcode.com/problems/rotate-array/description/)] 
+[[My Answer](src/main/java/leetcode/list/RotateArray.java)] 
+[[Submission](https://leetcode.com/submissions/detail/264996352/)]
 198. House Robber<br>
 [[Problem](https://leetcode.com/problems/house-robber/description/)] 
 [[My Answer](src/main/java/leetcode/HouseRobber.java)] 
