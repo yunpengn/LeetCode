@@ -258,6 +258,10 @@ I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at
 [[Problem](https://leetcode.com/problems/restore-ip-addresses/description/)] 
 [[My Answer](src/main/java/leetcode/string/RestoreIP.java)] 
 [[Submission](https://leetcode.com/submissions/detail/264161307/)]
+98. Validate Binary Search Tree<br>
+[[Problem](https://leetcode.com/problems/validate-binary-search-tree/description/)] 
+[[My Answer](src/main/java/leetcode/tree/ValidBST.java)] 
+[[Submission](https://leetcode.com/submissions/detail/265307906/)]
 100. Same Tree<br>
 [[Problem](https://leetcode.com/problems/same-tree/description/)] 
 [[My Answer](src/main/java/leetcode/tree/SameTree.java)] 
