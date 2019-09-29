@@ -1,4 +1,4 @@
-package leetcode.list;
+package leetcode.array;
 
 public class MajorityElement {
     public int majorityElement(int[] nums) {

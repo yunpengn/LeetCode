@@ -16,4 +16,24 @@ public class ReverseLinkedList {
 
         return previous;
     }
+
+    public ListNode reverseBetween(ListNode head, int m, int n) {
+        ListNode dummyHead = new ListNode(-1);
+        ListNode pre = dummyHead;
+        pre.next = head;
+        for (int i = 0; i < m - 1; i++) {
+            pre = pre.next;
+        }
+
+        ListNode current = pre.next;
+        ListNode next = current.next;
+        for (int i = 0; i < n - m; i++) {
+            current.next = next.next;
+            next.next = pre.next;
+            pre.next = next;
+            next = current.next;
+        }
+
+        return dummyHead.next;
+    }
 }

@@ -1,4 +1,4 @@
-package leetcode.list;
+package leetcode.array;
 
 public class MaxProductSubArray {
     public int maxProduct(int[] nums) {

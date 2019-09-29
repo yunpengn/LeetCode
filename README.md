@@ -250,6 +250,10 @@ I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at
 [[Problem](https://leetcode.com/problems/merge-sorted-array/description/)] 
 [[My Answer](src/main/java/leetcode/list/MergeArray.java)] 
 [[Submission](https://leetcode.com/submissions/detail/165335387/)]
+92. Reverse Linked List II<br>
+[[Problem](https://leetcode.com/problems/reverse-linked-list-ii/description/)] 
+[[My Answer](src/main/java/leetcode/list/ReverseLinkedList.java)] 
+[[Submission](https://leetcode.com/submissions/detail/265280735/)]
 93. Restore IP Addresses<br>
 [[Problem](https://leetcode.com/problems/restore-ip-addresses/description/)] 
 [[My Answer](src/main/java/leetcode/string/RestoreIP.java)] 

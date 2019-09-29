@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 import org.junit.jupiter.api.Test;
 
+import leetcode.array.NextPermutation;
+
 class NextPermutationTest {
     private static final NextPermutation tester = new NextPermutation();
 

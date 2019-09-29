@@ -5,6 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
+import leetcode.array.RemoveElement;
+
 class RemoveElementTest {
     private static final RemoveElement tester = new RemoveElement();
 

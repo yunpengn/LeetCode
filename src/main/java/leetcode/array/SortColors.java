@@ -1,4 +1,4 @@
-package leetcode.list;
+package leetcode.array;
 
 public class SortColors {
     public void sortColors(int[] nums) {

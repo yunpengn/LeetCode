@@ -1,4 +1,4 @@
-package leetcode.list;
+package leetcode.array;
 
 public class StockPrice {
     public int maxProfit(int[] prices) {

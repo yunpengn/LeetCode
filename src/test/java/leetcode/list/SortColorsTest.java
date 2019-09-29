@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 import org.junit.jupiter.api.Test;
 
+import leetcode.array.SortColors;
+
 class SortColorsTest {
     private static final SortColors tester = new SortColors();
 

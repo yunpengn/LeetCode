@@ -1,4 +1,4 @@
-package leetcode.list;
+package leetcode.array;
 
 /**
  * Merging array is different from merge linked list because we want to keep constant space.

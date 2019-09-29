@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 import org.junit.jupiter.api.Test;
 
+import leetcode.array.MergeArray;
+
 class MergeArrayTest {
     private static final MergeArray tester = new MergeArray();
 

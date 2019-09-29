@@ -1,4 +1,4 @@
-package leetcode.list;
+package leetcode.array;
 
 public class RemoveDuplicates {
     public int removeDuplicates(int[] nums) {

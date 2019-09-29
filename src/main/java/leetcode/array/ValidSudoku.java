@@ -1,4 +1,4 @@
-package leetcode.list;
+package leetcode.array;
 
 public class ValidSudoku {
     // Defines a few constants for ASCII code values.

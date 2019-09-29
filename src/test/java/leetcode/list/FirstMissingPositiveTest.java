@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
+import leetcode.array.FirstMissingPositive;
+
 class FirstMissingPositiveTest {
     private static final FirstMissingPositive tester = new FirstMissingPositive();
 

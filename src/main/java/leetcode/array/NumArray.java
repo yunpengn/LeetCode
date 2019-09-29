@@ -1,4 +1,4 @@
-package leetcode.list;
+package leetcode.array;
 
 public class NumArray {
     // Uses an array to record down the sum from the start of the array until a certain point, such
