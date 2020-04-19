@@ -1,6 +1,6 @@
 # LeetCode
 
-[![Build Status](https://travis-ci.com/yunpengn/LeetCode.svg?branch=master)](https://travis-ci.com/yunpengn/LeetCode)
+[![CI pipeline](https://github.com/yunpengn/LeetCode/workflows/CI%20pipeline/badge.svg)](https://github.com/yunpengn/LeetCode/actions)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/089367c33a5a49e0983c02236205473d)](https://www.codacy.com/app/yunpengn/LeetCode?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=yunpengn/LeetCode&amp;utm_campaign=Badge_Grade)
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=yunpengn/LeetCode)](https://dependabot.com)
 
