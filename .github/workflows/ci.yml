@@ -19,7 +19,7 @@ jobs:
   # See https://help.github.com/en/actions/language-and-framework-guides/github-actions-for-java
   build-and-test:
     name: Build & test on JDK ${{ matrix.java }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     strategy:
       matrix:
         java: [8, 11, 14]
@@ -36,7 +36,7 @@ jobs:
           java-version: ${{ matrix.java }}
       # See https://github.com/actions/cache
       - name: Cache Gradle packages
-        uses: actions/cache@v1
+        uses: actions/cache@v2.1.4
         with:
           path: ~/.gradle/caches
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}
