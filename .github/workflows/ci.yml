@@ -48,7 +48,7 @@ jobs:
   # See https://blog.gradle.org/gradle-wrapper-checksum-verification-github-action
   validate-gradle:
     name: Validate Gradle wrapper
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       # See https://github.com/actions/checkout
       - name: Download the repository to $GITHUB_WORKSPACE
@@ -62,7 +62,7 @@ jobs:
   # See https://help.github.com/en/actions/language-and-framework-guides
   validate-links:
     name: Validate links in README.md
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       # See https://github.com/actions/checkout
       - name: Download the repository to $GITHUB_WORKSPACE
