@@ -11,7 +11,7 @@ updates:
       - "dependencies"
 
   # Maintain dependencies for PIP
-  - package-ecosystem: "pip"
+  - package-ecosystem: "gradle"
     directory: "/"
     schedule:
       interval: "daily"
