@@ -2,7 +2,6 @@
 
 [![CI pipeline](https://github.com/yunpengn/LeetCode/workflows/CI%20pipeline/badge.svg)](https://github.com/yunpengn/LeetCode/actions)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/089367c33a5a49e0983c02236205473d)](https://www.codacy.com/app/yunpengn/LeetCode?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=yunpengn/LeetCode&amp;utm_campaign=Badge_Grade)
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=yunpengn/LeetCode)](https://dependabot.com)
 
 This repository contains my solutions to some selected programming problems on [LeetCode](https://leetcode.com/). You may want to read this [article](docs/features.md) to understand what makes this repository different from other LeetCode solution repositories hosted on GitHub.
 
