@@ -7,7 +7,7 @@ This repository contains my solutions to some selected programming problems on [
 
 ## About Me
 
-I am currently a [Computer Engineering](http://ceg.nus.edu.sg/) undergraduate at the [National University of Singapore](http://www.nus.edu.sg/). I am passionate about programming and software engineering.
+I am a software enginer and hold a bachelor's degree in [Computer Engineering](http://ceg.nus.edu.sg/) from the [National University of Singapore](http://www.nus.edu.sg/). I am passionate about programming and software engineering.
 
 - Personal Website: [https://yunpengn.github.io/](https://yunpengn.github.io/)
 - LinkedIn: [@Yunpeng Niu](https://www.linkedin.com/in/yunpeng-niu/en)
