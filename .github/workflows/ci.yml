@@ -33,6 +33,7 @@ jobs:
       - name: Setup JDK ${{ matrix.java }}
         uses: actions/setup-java@v2
         with:
+          distribution: 'adopt'
           java-version: ${{ matrix.java }}
       # See https://github.com/actions/cache
       - name: Cache Gradle packages
