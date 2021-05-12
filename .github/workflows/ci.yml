@@ -58,7 +58,7 @@ jobs:
           fetch-depth: 50
       # See https://github.com/gradle/wrapper-validation-action
       - name: Validate gradle-wrapper.jar
-        uses: gradle/wrapper-validation-action@v1
+        uses: gradle/wrapper-validation-action@v1.0.3
 
   # See https://help.github.com/en/actions/language-and-framework-guides
   validate-links:
